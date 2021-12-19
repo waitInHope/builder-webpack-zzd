@@ -1,0 +1,2773 @@
+{
+	"code": 0,
+	"data": {
+		"infos": [{
+			"id": 100099801,
+			"spu": 998,
+			"ctime": 1637916952,
+			"utime": 1639448824,
+			"begin_time": 1638115200,
+			"end_time": 1953648000,
+			"price": {
+				"market": 12900,
+				"sale": 9900,
+				"sale_type": 2,
+				"start_time": 1639152000,
+				"end_time": 1639756799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": false,
+			"is_promo": true,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "郭东白的架构课",
+			"subtitle": "从技术领导者视角重新理解架构设计",
+			"intro": "随着云计算和云原生技术从朦胧到普及，软件架构师已经成为职业赛道上的热门选手。但对于很多研发人员来说，想成为架构师，却不清楚发展路径，也不知道该如何系统学习架构师的相关技能栈。\n同时，对于很多已经承担架构设计职责的架构师来说，没有系统的方法论，所以不知道该怎么做架构选型和评审，不能输出清晰的架构蓝图，也不知道该如何高效组织研发人员去交付架构方案。\n之所以有这些迷思，主要原因在于不清楚架构师到底是做什么的。事实上，架构师就是要在多种资源条件的限制下，组织研发人员交付一个结构化的解决方案。这个时候，就需要架构师具有单个模块的设计能力、解决横向问题的能力、解决跨领域冲突的能力、全局性技术决策的能力，以及通过技术带来生存优势的能力。\n而归根结底，如果想成为一个架构师，必须有意识地锻炼自己的战略意图和思考力。有了这两方面的锻炼，才能提升你作为一个架构师，在未知环境中判断和取舍的质量，并通过架构设计为你所在的团队或企业带来竞争优势。再进一步，可以不断提高你的职业天花板，拓宽你的发展道路。\n那么该如何设计你作为架构师的战略意图呢？以及该如何提升思考力呢？为了解决这些问题，我们特意邀请了车好多集团CTO郭东白。他会将纷繁复杂的架构知识，融汇贯通并梳理成一个结构化的知识体系，帮助你建立起对架构活动的整体认知。\n东白老师会以痛点问题为导向，结合大量真实、复杂的案例，助你快速掌握在多种资源条件的掣肘下，选择最具长期价值和商业价值的设计方案，做好选型和评审。与此同时，也会为你规划一条清晰可见、切实可行的成长路径，帮你实现能力的跃迁和职业的发展。\n而课程的最高阶目标，就是让你在大量的实例锻炼和逻辑推导中，培养全局的思维方式，提高你作为架构师的核心竞争力。\n\n课程设计\n课程主体分为四大模块。\n模块一：架构师的六大生存法则。\n生存法则指的是你作为架构师必须要尊重的一些原则。如果违背，你指导的架构活动可能会面临巨大的失误，而你在团队中的生存也会受到威胁。\n所以，老师结合自己多年的架构实战，提炼出了六条生存法则，来帮助你提升架构成功的概率，提高你作为架构师的增量价值。\n模块二：架构活动的八大关键节点。\n老师把架构活动划分出了八个关键节点，包括环境搭建、目标确认、可行性探索、架构规划、项目启动、阶段交付、全面上线和复盘。\n通过这个模块的学习，你可以增强风险识别和应对的能力，学会怎么通过真实的贡献让自己在团队或企业中变得不可或缺。\n模块三：架构师成长的五大关键能力。\n老师把架构师的成长分解成五种能力，分别是：单个模块的设计能力、解决横向问题的能力、解决跨领域冲突的能力、全局性技术决策的能力，以及通过技术带来生存优势的能力。\n通过跨越这些能力障碍，不仅可以帮助你建立全新的能力维度，提高你的核心竞争力。还可以帮助你完成职业上的发展跃迁，从兼职架构师到跨域架构师再到总架构师，甚至到CTO。\n最后一个模块，这是一个接近于手把手传授技能的环节，会着重锻炼你的思考力。\n思考力，是一个架构师生存与发展最核心的能力。因此，老师会提供一些他和团队提升思考质量的方法，并通过实际案例来示范他常用的思考路径（比如中台），带你从宏观视角去审视一个复杂事件，从而提高你的认知，看清问题的本质。\n",
+			"intro_html": "\u003cp\u003e随着云计算和云原生技术从朦胧到普及，软件架构师已经成为职业赛道上的热门选手。但对于很多研发人员来说，想成为架构师，却不清楚发展路径，也不知道该如何系统学习架构师的相关技能栈。\u003c/p\u003e\n\u003cp\u003e同时，对于很多已经承担架构设计职责的架构师来说，没有系统的方法论，所以不知道该怎么做架构选型和评审，不能输出清晰的架构蓝图，也不知道该如何高效组织研发人员去交付架构方案。\u003c/p\u003e\n\u003cp\u003e之所以有这些迷思，主要原因在于不清楚架构师到底是做什么的。事实上，\u003cstrong\u003e架构师就是要在多种资源条件的限制下，组织研发人员交付一个结构化的解决方案\u003c/strong\u003e。这个时候，就需要架构师具有单个模块的设计能力、解决横向问题的能力、解决跨领域冲突的能力、全局性技术决策的能力，以及通过技术带来生存优势的能力。\u003c/p\u003e\n\u003cp\u003e而归根结底，如果想成为一个架构师，必须有意识地锻炼自己的战略意图和思考力。有了这两方面的锻炼，才能提升你作为一个架构师，在未知环境中判断和取舍的质量，并通过架构设计为你所在的团队或企业带来竞争优势。再进一步，可以不断提高你的职业天花板，拓宽你的发展道路。\u003c/p\u003e\n\u003cp\u003e那么该如何设计你作为架构师的战略意图呢？以及该如何提升思考力呢？为了解决这些问题，我们特意邀请了车好多集团CTO郭东白。他会将纷繁复杂的架构知识，融汇贯通并梳理成一个结构化的知识体系，帮助你建立起对架构活动的整体认知。\u003c/p\u003e\n\u003cp\u003e东白老师会以痛点问题为导向，结合大量真实、复杂的案例，助你快速掌握在多种资源条件的掣肘下，选择最具长期价值和商业价值的设计方案，做好选型和评审。与此同时，也会为你规划一条清晰可见、切实可行的成长路径，帮你实现能力的跃迁和职业的发展。\u003c/p\u003e\n\u003cp\u003e而课程的最高阶目标，就是让你在大量的实例锻炼和逻辑推导中，培养全局的思维方式，提高你作为架构师的核心竞争力。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/88/c9/88a30a0e34a02aeca32bf282e48124c9.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003ch3\u003e课程设计\u003c/h3\u003e\n\u003cp\u003e课程主体分为四大模块。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e模块一：架构师的六大生存法则。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e生存法则指的是你作为架构师必须要尊重的一些原则。如果违背，你指导的架构活动可能会面临巨大的失误，而你在团队中的生存也会受到威胁。\u003c/p\u003e\n\u003cp\u003e所以，老师结合自己多年的架构实战，提炼出了六条生存法则，来帮助你提升架构成功的概率，提高你作为架构师的增量价值。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e模块二：架构活动的八大关键节点。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e老师把架构活动划分出了八个关键节点，包括环境搭建、目标确认、可行性探索、架构规划、项目启动、阶段交付、全面上线和复盘。\u003c/p\u003e\n\u003cp\u003e通过这个模块的学习，你可以增强风险识别和应对的能力，学会怎么通过真实的贡献让自己在团队或企业中变得不可或缺。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e模块三：架构师成长的五大关键能力。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e老师把架构师的成长分解成五种能力，分别是：单个模块的设计能力、解决横向问题的能力、解决跨领域冲突的能力、全局性技术决策的能力，以及通过技术带来生存优势的能力。\u003c/p\u003e\n\u003cp\u003e通过跨越这些能力障碍，不仅可以帮助你建立全新的能力维度，提高你的核心竞争力。还可以帮助你完成职业上的发展跃迁，从兼职架构师到跨域架构师再到总架构师，甚至到CTO。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e最后一个模块，这是一个接近于手把手传授技能的环节，会着重锻炼你的思考力\u003c/strong\u003e。\u003c/p\u003e\n\u003cp\u003e思考力，是一个架构师生存与发展最核心的能力。因此，老师会提供一些他和团队提升思考质量的方法，并通过实际案例来示范他常用的思考路径（比如中台），带你从宏观视角去审视一个复杂事件，从而提高你的认知，看清问题的本质。\u003c/p\u003e\n",
+			"ucode": "A91E32F405A5A0",
+			"is_finish": false,
+			"author": {
+				"name": "郭东白",
+				"intro": "车好多集团CTO，前阿里P10，浙大兼职教授和博导",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/1d/6a/1d66a7427f9cd91b07ec355240e83a6a.jpg",
+				"brief_html": "\u003cp\u003e郭东白，当前担任车好多（即瓜子二手车母公司）集团CTO， 同时兼任浙江大学计算机学院兼职教授和博导。\u003c/p\u003e\n\u003cp\u003e东白从布朗大学获得博士学位后，先后在美国甲骨文、微软、亚马逊任职。2014年回国，在阿里集团先后担任全球速卖通CTO、Lazada集团CTO。2020年，加入车好多。\u003c/p\u003e\n\u003cp\u003e东白是云计算和国际化电商平台领域的资深专家，分别为亚马逊、阿里巴巴和Lazada搭建每秒上万次成交，年成交额超百亿美金的大型电商平台，覆盖数字、跨境和本地三种电商商业模式，同时支持内容化、社交化、游戏化、私域化等一系列创新技术，为企业带来了巨大的商业成功和生存优势。\u003c/p\u003e\n\u003cp\u003e东白还是国际标准领域的资深专家，分别为美国甲骨文、微软和亚马逊制定了国际标准战略，并代表公司在多个国际标准组织任职。他还担任过全球最大的医疗图像标准组织DICOM的执行委员会成员（全球共26名）。\u003c/p\u003e\n\u003cp\u003e除上述技术能力外，东白也是一个资深的全球化团队管理者，有15年管理经验，其中包括6年的全职CTO经验。在Lazada，管理六个城市近700人的研发团队。在速卖通，从无到有搭建了深圳、西班牙和俄罗斯三个新的研发中心；还为公司引入多名优秀高级管理人才，而且连续3年维持了低于3%的离职率。\u003c/p\u003e\n",
+				"brief": "郭东白，当前担任车好多（即瓜子二手车母公司）集团CTO， 同时兼任浙江大学计算机学院兼职教授和博导。\n东白从布朗大学获得博士学位后，先后在美国甲骨文、微软、亚马逊任职。2014年回国，在阿里集团先后担任全球速卖通CTO、Lazada集团CTO。2020年，加入车好多。\n东白是云计算和国际化电商平台领域的资深专家，分别为亚马逊、阿里巴巴和Lazada搭建每秒上万次成交，年成交额超百亿美金的大型电商平台，覆盖数字、跨境和本地三种电商商业模式，同时支持内容化、社交化、游戏化、私域化等一系列创新技术，为企业带来了巨大的商业成功和生存优势。\n东白还是国际标准领域的资深专家，分别为美国甲骨文、微软和亚马逊制定了国际标准战略，并代表公司在多个国际标准组织任职。他还担任过全球最大的医疗图像标准组织DICOM的执行委员会成员（全球共26名）。\n除上述技术能力外，东白也是一个资深的全球化团队管理者，有15年管理经验，其中包括6年的全职CTO经验。在Lazada，管理六个城市近700人的研发团队。在速卖通，从无到有搭建了深圳、西班牙和俄罗斯三个新的研发中心；还为公司引入多名优秀高级管理人才，而且连续3年维持了低于3%的离职率。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/1d/6a/1d66a7427f9cd91b07ec355240e83a6a.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/4a/6e/4a373e050e3e531e630ea6fa4e48856e.jpg",
+				"horizontal": "https://static001.geekbang.org/resource/image/52/9f/5233c27be5c59186a27ebdbd3e089e9f.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/eb/1c/eb9e938d7407a1b62950b31c75faf01c.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/34/35/3470efd29e8f49c16617829fdcc4b435.png",
+				"transparent": "https://static001.geekbang.org/resource/image/ea/9e/eabe5dff69cd29ae9768053af168179e.png",
+				"color": "#b2b4cb"
+			},
+			"article": {
+				"id": 0,
+				"count": 45,
+				"count_req": 45,
+				"count_pub": 6,
+				"total_length": 7254,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["架构", "架构师", "业务建模", "职业发展", "郭东白", "阿里巴巴", "案例", "CTO"]
+			},
+			"share": {
+				"title": "郭东白 · 郭东白的架构课",
+				"content": "从技术领导者视角重新理解架构设计",
+				"cover": "https://static001.geekbang.org/resource/image/1d/6a/1d66a7427f9cd91b07ec355240e83a6a.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/1e/b5/1e3b7a73070bf5bfb4444da8yy0fd7b5.jpg"
+			},
+			"labels": [3, 26, 4, 27, 16, 14, 23, 22, 19, 71],
+			"unit": "45讲",
+			"column_type": 1,
+			"column": {
+				"unit": "45讲",
+				"bgcolor": "F6F7FB",
+				"update_frequency": "每周二更新2讲",
+				"is_preorder": false,
+				"is_finish": false,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 8, 11],
+				"path": {
+					"desc": "你将获得\n\n郭东白首次体系化的架构经验输出；\n从程序员到CTO的四大认知跃迁；\n架构师保命的六大生存法则；\n从0到1交付架构项目的八大关键；\n架构师思考力的高效提升路径。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e郭东白首次体系化的架构经验输出；\u003c/li\u003e\n\u003cli\u003e从程序员到CTO的四大认知跃迁；\u003c/li\u003e\n\u003cli\u003e架构师保命的六大生存法则；\u003c/li\u003e\n\u003cli\u003e从0到1交付架构项目的八大关键；\u003c/li\u003e\n\u003cli\u003e架构师思考力的高效提升路径。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/87/fc/87cf10f593f0270b3db83aa339b217fc.jpg",
+				"recommend_articles": [460668, 463876, 464541, 467398, 467402],
+				"recommend_comments": [],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 2,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/24/40/249f485a388090d3455da2a9ea86cd40.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 3828,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 23,
+					"status": 0,
+					"url": "https://jinshuju.net/f/R5BQbC"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 0,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 0,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "3A3F52",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/4c/19/4cd380c6e6984deea173720aea368019.jpeg",
+					"promo_pic_color": "3A3F52",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/4c/19/4cd380c6e6984deea173720aea368019.jpeg",
+					"share_sale_price": 2000,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 1639756799
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 5900,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n郭东白首次体系化的架构经验输出\n从程序员到CTO的四大认知跃迁\n架构师保命的六大生存法则\n从0到1交付架构项目的八大关键\n架构师思考力的高效提升路径\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2532]
+		}, {
+			"id": 100078401,
+			"spu": 784,
+			"ctime": 1620531724,
+			"utime": 1639362285,
+			"begin_time": 1619625600,
+			"end_time": 1933603200,
+			"price": {
+				"market": 19900,
+				"sale": 12900,
+				"sale_type": 3,
+				"start_time": 1638954060,
+				"end_time": 1672588740
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": true,
+			"is_promo": false,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "操作系统实战45讲",
+			"subtitle": "从0到1，实现自己的操作系统",
+			"intro": "作为计算机王国中的实际“掌舵人”，操作系统是一切法则的制定者。它掌管着硬件软件等一切资源，并负责处理多种基本事务（内存管理、资源配置、I/O设备、网络通信等），既能维护公平正义又能杀伐决断，而我们的课程就是讲解如何实现它。课程设计课程中，彭东老师将多年的操作系统开发经验倾囊相授，并带你从系统级的高度分析和解决相关问题，理论结合实践，带你从无到有实现一个自己的操作系统。实现路径从最小内核HelloOS练手，初步了解操作系统如何运行；对比经典操作系统，推陈出新，设计自己的操作系统——Cosmos内核结构；解决操作系统的硬件、同步以及初始化问题，建立Cosmos操作系统的测试环境以及虚拟硬件；利用操作系统实现对计算机的管控，把Cosmos操作系统做大做强；拓展视野，储备知识，分享技术前沿内容。知识体系下图是彭东老师绘制的简版操作系统知识体系图，上面涉及的所有知识点，都会在后续的课程讲到。尽管看上去只是些简短的词汇，但随着课程的展开，你会发现每一小块，都犹如一片汪洋。终极目标搞懂操作系统长什么样，如何运作，深入理解和掌握相关知识（理论）；实现一个自己的，基于x86平台的支持多进程的操作系统内核（实操）。",
+			"intro_html": "\u003cp\u003e作为计算机王国中的实际“掌舵人”，操作系统是一切法则的制定者。它掌管着硬件软件等一切资源，并负责处理多种基本事务（内存管理、资源配置、I/O 设备、网络通信等），既能维护公平正义又能杀伐决断，\u003cstrong\u003e而我们的课程就是讲解如何实现它。\u003c/strong\u003e\u003c/p\u003e\n\u003cbr/\u003e\n\u003cp\u003e\u003cstrong\u003e课程设计\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e课程中，彭东老师将多年的操作系统开发经验倾囊相授，并带你从系统级的高度分析和解决相关问题，理论结合实践，带你从无到有实现一个自己的操作系统。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/33/93/33e8576aee66d5942c830dde0f812c93.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e实现路径\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e从最小内核 Hello OS 练手，初步了解操作系统如何运行；\u003c/li\u003e\n\u003cli\u003e对比经典操作系统，推陈出新，设计自己的操作系统——Cosmos 内核结构；\u003c/li\u003e\n\u003cli\u003e解决操作系统的硬件、同步以及初始化问题，建立 Cosmos 操作系统的测试环境以及虚拟硬件；\u003c/li\u003e\n\u003cli\u003e利用操作系统实现对计算机的管控，把 Cosmos 操作系统做大做强；\u003c/li\u003e\n\u003cli\u003e拓展视野，储备知识，分享技术前沿内容。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr/\u003e\n\u003cp\u003e\u003cstrong\u003e知识体系\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e下图是彭东老师绘制的简版操作系统知识体系图，上面涉及的所有知识点，都会在后续的课程讲到。尽管看上去只是些简短的词汇，但随着课程的展开，你会发现每一小块，都犹如一片汪洋。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/2c/bd/2c6abcd035e5c83cdd7d356eca26b9bd.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e终极目标\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e搞懂操作系统长什么样，如何运作，深入理解和掌握相关知识（理论）；\u003c/li\u003e\n\u003cli\u003e实现一个自己的，基于 x86 平台的支持多进程的操作系统内核（实操）。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/ef/c1/efbf344e5ccdf388a576687990490ac1.gif\" alt=\"\" /\u003e\u003c/p\u003e\n",
+			"ucode": "B037712C8B8B3C",
+			"is_finish": true,
+			"author": {
+				"name": "彭东",
+				"intro": "网名 LMOS，Intel 傲腾项目关键开发者",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/96/d4/960e63aeb4aed854d6a0e0e40f192bd4.jpg",
+				"brief_html": "\u003cp\u003e彭东，网名 LMOS，Intel 傲腾项目关键开发者，《深度探索嵌入式操作系统：从零开始设计、架构和开发》作者。研究操作系统数十年，精通 Linux、BSD、SunOS 等开源操作系统内核，对 Windows 的 NT 内核也有一定研究。\u003c/p\u003e\n\u003cp\u003e曾独立开发过两套全新的操作系统内核：LMOS 和 LMOSEM。其中 LMOS 先后发布了 8 个测试版本，至今已是一个多进程、多 CPU、支持虚拟内存的全 64 位操作系统内核（x86_64 体系下），代码量达 10 万余行。LMOSEM（基于 ARM 体系）则是嵌入式操作系统的新尝试，实验了不同于 LMOS 的新架构、新代码。\u003c/p\u003e\n",
+				"brief": "彭东，网名LMOS，Intel傲腾项目关键开发者，《深度探索嵌入式操作系统：从零开始设计、架构和开发》作者。研究操作系统数十年，精通Linux、BSD、SunOS等开源操作系统内核，对Windows的NT内核也有一定研究。曾独立开发过两套全新的操作系统内核：LMOS和LMOSEM。其中LMOS先后发布了8个测试版本，至今已是一个多进程、多CPU、支持虚拟内存的全64位操作系统内核（x86_64体系下），代码量达10万余行。LMOSEM（基于ARM体系）则是嵌入式操作系统的新尝试，实验了不同于LMOS的新架构、新代码。"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/96/d4/960e63aeb4aed854d6a0e0e40f192bd4.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/5a/47/5aa6ed2ef39c5002ed7e5cd1a8d17d47.png",
+				"horizontal": "https://static001.geekbang.org/resource/image/0a/58/0af98c2b376f83d4c4819d83f07f9e58.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/a0/f4/a0c86b2149b005d1b059fd4fyya3b9f4.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/fd/0d/fdde66224ff7d116078b6273b885b90d.jpg",
+				"transparent": "https://static001.geekbang.org/resource/image/b1/49/b1d4577e7b7d91fd426738dd442f8249.png",
+				"color": "#bbccde"
+			},
+			"article": {
+				"id": 0,
+				"count": 54,
+				"count_req": 48,
+				"count_pub": 54,
+				"total_length": 48349,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["操作系统", "Linux", "计算机基础", "底层", "内核", "后端开发", "iOS", "彭东", "C语言", "OS", "实战"]
+			},
+			"share": {
+				"title": "彭东 · 操作系统实战45讲",
+				"content": "从0到1，实现自己的操作系统",
+				"cover": "https://static001.geekbang.org/resource/image/96/d4/960e63aeb4aed854d6a0e0e40f192bd4.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/c1/c5/c1f96e50d6485dd9111523fa85bf7ac5.jpeg"
+			},
+			"labels": [9, 3, 79, 83, 22, 64, 80, 81],
+			"unit": "54讲",
+			"column_type": 1,
+			"column": {
+				"unit": "54讲",
+				"bgcolor": "F6F7FB",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 8, 11, 12, 14],
+				"path": {
+					"desc": "你将获得：洞悉OS运行机制与架构实现；强化理解Linux核心技术；系统级别的编程技巧；“保姆级”代码注释及详解图。",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得：\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e洞悉 OS 运行机制与架构实现；\u003c/li\u003e\n\u003cli\u003e强化理解 Linux 核心技术；\u003c/li\u003e\n\u003cli\u003e系统级别的编程技巧；\u003c/li\u003e\n\u003cli\u003e“保姆级”代码注释及详解图。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/29/59/2980226dbc024fe9b2fc6de2ded10559.jpg",
+				"recommend_articles": [375278, 376064, 377913, 387258, 394084, 404013],
+				"recommend_comments": [313655, 291998],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 2,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/95/8e/955e7671ebeb471253bf430c6c17218e.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 16609,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 24,
+					"status": 0,
+					"url": "https://jinshuju.net/f/sR6ivf"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 2,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 12900,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "364B7F",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/d3/6a/d3b1be598e4384b85b2aefdcbe4c7e6a.png",
+					"promo_pic_color": "324974",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/d0/71/d00549232aee7ed456f7d204d9543171.png",
+					"share_sale_price": 2400,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 0
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 6800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "洞悉OS运行机制与架构实现强化理解Linux核心技术系统级别的编程技巧“保姆级”代码注释及详解图",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2276]
+		}, {
+			"id": 100101301,
+			"spu": 1013,
+			"ctime": 1639023633,
+			"utime": 1639394982,
+			"begin_time": 1639324800,
+			"end_time": 1954857600,
+			"price": {
+				"market": 12900,
+				"sale": 9900,
+				"sale_type": 2,
+				"start_time": 1639324800,
+				"end_time": 1639583999
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": false,
+			"is_promo": true,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "Spring Cloud 微服务项目实战",
+			"subtitle": "以练代学，快速上手微服务开发",
+			"intro": "随着互联网业务体量的激增，使用 Java 技术栈的各大厂都在全面拥抱微服务。因此，微服务技术已经成为一名 Java 工程师晋升到高阶技术专家所必须掌握的知识。作为技术人员，你一定知道微服务架构将是未来趋势，也想让自己在微服务技术能力上有所提升，但摆在面前的几座大山让你望而却步：\n\n微服务体系庞杂，有没有切实有效的学习路径，能帮我快速上手？\n微服务架构组件很多，到底怎么选择才能搭建一套完善的解决方案？\n大厂是如何应用 Spring Cloud 架构来解决问题的？有哪些可以借鉴的经验？\n……\n\n针对这些问题，姚秋辰（网名：姚半仙）老师结合自己十余年的微服务开发经验，从庞杂的微服务体系中为你梳理出了一条明确的学习路径：立足于微服务的“三大功能，两大特性”，结合项目实战，由浅入深，逐一击破。\n\n学习微服务技术，只懂原理是不够的，更重要的是能让它“为我所用”。因此，姚秋辰老师将带你从 0 到 1 地落地一个可部署、可运行的 Spring Cloud项目。在实战中，带你深入理解微服务技术，掌握微服务改造的核心技能。在这一过程中，姚秋辰老师还会兼顾底层原理和源码部分的讲解，让你知其然又知其所以然，所练、所学都能应用在实际业务当中。\n\n模块设计\n按照循序渐进的学习习惯，课程主体将分为五个模块。\n\n模块一：课前必学\n\n老师将用四节课为你铺垫微服务和 Spring Cloud 的前置知识，其中包括微服务的优势介绍、Spring Cloud 的组件策略、实战技术选型和开发环境的搭建。通过这一模块，你可以对 Spring Cloud 有一个更加全面的了解，并且为后续的实战环节备好“弹药库”。\n\n模块二：Spring Boot 急速落地篇\n\n老师将带你详细了解课程实战项目的业务背景和项目结构。同时，由于 Spring Cloud 是基于 Spring Boot 实现的，老师还会手把手带你先搭建必要的 Spring Boot 实战项目。\n\n模块三：Spring Cloud 基础篇\n\n老师将通过基础的 Spring Cloud 实战，帮你快速掌握服务治理、负载均衡和服务间调用的相关技能。\n\n模块四：Spring Cloud 进阶篇\n\n老师讲带你构建分布式环境下的配置管理和容错机制，帮助你在实战中实现异常处理、调用链路追踪和远程配置管理的技术目标。\n\n模块五：Spring Cloud 高级篇\n\n在最后这个模块中，你会深入了解微服务网关、消息事件驱动及分布式事务的使用场景和原理，进而掌握将微服务集群接入网关组件和消息组件的方法。这在实际工作中可以帮助你实现分布式数据一致性方案。\n",
+			"intro_html": "\u003cp\u003e随着互联网业务体量的激增，使用 Java 技术栈的各大厂都在全面拥抱微服务。因此，微服务技术已经成为一名 Java 工程师晋升到高阶技术专家所必须掌握的知识。作为技术人员，你一定知道微服务架构将是未来趋势，也想让自己在微服务技术能力上有所提升，但摆在面前的几座大山让你望而却步：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e微服务体系庞杂，有没有切实有效的学习路径，能帮我快速上手？\u003c/li\u003e\n\u003cli\u003e微服务架构组件很多，到底怎么选择才能搭建一套完善的解决方案？\u003c/li\u003e\n\u003cli\u003e大厂是如何应用 Spring Cloud 架构来解决问题的？有哪些可以借鉴的经验？\u003c/li\u003e\n\u003cli\u003e……\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e针对这些问题，姚秋辰（网名：姚半仙）老师结合自己十余年的微服务开发经验，从庞杂的微服务体系中为你梳理出了一条明确的学习路径：立足于微服务的“三大功能，两大特性”，结合项目实战，由浅入深，逐一击破。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/a2/57/a23f868571e4d518971acf8de8bd5657.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e学习微服务技术，只懂原理是不够的，更重要的是能让它“为我所用”。因此，姚秋辰老师将带你从 0 到 1 地落地一个可部署、可运行的 Spring Cloud项目。在实战中，带你深入理解微服务技术，掌握微服务改造的核心技能。在这一过程中，姚秋辰老师还会兼顾底层原理和源码部分的讲解，让你知其然又知其所以然，所练、所学都能应用在实际业务当中。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/9f/eb/9f4d234cb284e79938db33c5ac2d81eb.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003ch3\u003e模块设计\u003c/h3\u003e\n\u003cp\u003e按照循序渐进的学习习惯，课程主体将分为五个模块。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e模块一：课前必学\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e老师将用四节课为你铺垫微服务和 Spring Cloud 的前置知识，其中包括微服务的优势介绍、Spring Cloud 的组件策略、实战技术选型和开发环境的搭建。通过这一模块，你可以对 Spring Cloud 有一个更加全面的了解，并且为后续的实战环节备好“弹药库”。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e模块二：Spring Boot 急速落地篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e老师将带你详细了解课程实战项目的业务背景和项目结构。同时，由于 Spring Cloud 是基于 Spring Boot 实现的，老师还会手把手带你先搭建必要的 Spring Boot 实战项目。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e模块三：Spring Cloud 基础篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e老师将通过基础的 Spring Cloud 实战，帮你快速掌握服务治理、负载均衡和服务间调用的相关技能。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e模块四：Spring Cloud 进阶篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e老师讲带你构建分布式环境下的配置管理和容错机制，帮助你在实战中实现异常处理、调用链路追踪和远程配置管理的技术目标。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e模块五：Spring Cloud 高级篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e在最后这个模块中，你会深入了解微服务网关、消息事件驱动及分布式事务的使用场景和原理，进而掌握将微服务集群接入网关组件和消息组件的方法。这在实际工作中可以帮助你实现分布式数据一致性方案。\u003c/p\u003e\n",
+			"ucode": "4C86AA5D6D8C39",
+			"is_finish": false,
+			"author": {
+				"name": "姚秋辰（姚半仙）",
+				"intro": "PayPal 研发经理",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/af/3a/af16ef6a5fff3ac4e80f9afddf526a3a.jpg",
+				"brief_html": "\u003cp\u003e姚秋辰，网名姚半仙，硕士毕业于复旦大学，现任 PayPal 研发经理，曾先后任职于 SAP、阿里巴巴、eBay。《微服务从小白到专家—— Spring Cloud 与 Kubernetes 实战》作者。\u003c/p\u003e\n\u003cp\u003e姚秋辰老师一直从事互联网电商和支付场景的系统架构与开发，积累了丰富的大型微服务系统设计经验。他曾作为核心成员参与一线大厂战略核心业务从 0 到 1 的落地，负责过多个业务系统的微服务化改造、主链路高可用设计，擅长互联网电商和支付场景的高并发、高可用系统架构与开发。\u003c/p\u003e\n",
+				"brief": "姚秋辰，网名姚半仙，硕士毕业于复旦大学，现任 PayPal 研发经理，曾先后任职于 SAP、阿里巴巴、eBay。《微服务从小白到专家—— Spring Cloud 与 Kubernetes 实战》作者。\n姚秋辰老师一直从事互联网电商和支付场景的系统架构与开发，积累了丰富的大型微服务系统设计经验。他曾作为核心成员参与一线大厂战略核心业务从 0 到 1 的落地，负责过多个业务系统的微服务化改造、主链路高可用设计，擅长互联网电商和支付场景的高并发、高可用系统架构与开发。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/af/3a/af16ef6a5fff3ac4e80f9afddf526a3a.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/c5/1b/c558218a41eb6c3e67ccfd0181975d1b.png",
+				"horizontal": "https://static001.geekbang.org/resource/image/fc/cb/fc0a78a6ayy04b45a4e115e4eb35a6cb.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/30/f1/3028daa45422e77f39ba4517c697b7f1.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/21/b8/212d75255c906yy1e0834c8f1c632db8.png",
+				"transparent": "https://static001.geekbang.org/resource/image/41/f1/4195d052cb22714359eb44b4175519f1.png",
+				"color": "#dcc9cb"
+			},
+			"article": {
+				"id": 0,
+				"count": 38,
+				"count_req": 37,
+				"count_pub": 2,
+				"total_length": 1689,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["Spring Cloud", "微服务", "实战", "Java", "架构", "阿里", "Spring Boot", "姚半仙", "姚秋辰", "Nacos", "服务治理", "Sentinel", "OpenFeign", "Loadbalancer", "微服务网关"]
+			},
+			"share": {
+				"title": "姚秋辰（姚半仙） · Spring Cloud 微服务项目实战",
+				"content": "以练代学，快速上手微服务开发",
+				"cover": "https://static001.geekbang.org/resource/image/af/3a/af16ef6a5fff3ac4e80f9afddf526a3a.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/8b/a7/8bbc2411f2236dd2e0fea5c9c4685ba7.jpg"
+			},
+			"labels": [5, 3, 14, 10, 32],
+			"unit": "38讲",
+			"column_type": 1,
+			"column": {
+				"unit": "38讲",
+				"bgcolor": "F6F7FB",
+				"update_frequency": "12月20日开始更新",
+				"is_preorder": false,
+				"is_finish": false,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 8, 11, 12, 14],
+				"path": {
+					"desc": "你将获得：\n\n详解 10 大微服务核心技术组件；\n从 0 到 1 的 Spring Cloud 项目实战；\n一套优秀的、可执行的源码；\n一线大厂的微服务架构思维。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e详解 10 大微服务核心技术组件；\u003c/li\u003e\n\u003cli\u003e从 0 到 1 的 Spring Cloud 项目实战；\u003c/li\u003e\n\u003cli\u003e一套优秀的、可执行的源码；\u003c/li\u003e\n\u003cli\u003e一线大厂的微服务架构思维。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/96/4b/96d8378b708440cc8d2ab71a5cd1824b.jpg",
+				"recommend_articles": [467319, 467352],
+				"recommend_comments": [],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 4,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": ""
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 488,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 19,
+					"status": 0,
+					"url": "https://jinshuju.net/f/oWd6iX"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 0,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 0,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "593231",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/fd/8f/fd8d94a4dcf9a3d0c76f894f065c028f.png",
+					"promo_pic_color": "593231",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/96/2b/9610a749bce3244aca945b36d8ae332b.png",
+					"share_sale_price": 2000,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 1639583999
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 5900,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n详解 10 大微服务核心技术组件\n从 0 到 1 的 Spring Cloud 项目实战\n一套优秀的、可执行的源码\n一线大厂的微服务架构思维\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2558]
+		}, {
+			"id": 100100901,
+			"spu": 1009,
+			"ctime": 1638851441,
+			"utime": 1639411212,
+			"begin_time": 1638892800,
+			"end_time": 1954512000,
+			"price": {
+				"market": 12900,
+				"sale": 9900,
+				"sale_type": 2,
+				"start_time": 1638945249,
+				"end_time": 1640188799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": false,
+			"is_promo": true,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "算法实战高手课",
+			"subtitle": "从算法的工程实践开始，提升问题解决能力",
+			"intro": "提到算法，不知道你有没有这样的疑惑。\n之前花很多时间学的算法和数据结构，好像就是为了应对面试关，对日常的开发工作没有什么帮助。\n入职之后，没什么机会和需求要手写一些基础的数据结构，往往做着 CURD 的活；算法的存在感，最多就是调用调用 JDK 的包、STL 的函数，算法就像是只存在于那些开箱即用的中间件和基础库中而已，和我们的日常开发没什么关系。\n而且学习算法的过程相当痛苦，不只是学习曲线比较陡峭，主要还是平时可能完全用不到这些知识，边学边忘，没有连续的时间投入和充分的刻意练习。偶尔想起来做一做 LeetCode，发现刚学完的知识点根本记不住，不理解大厂面试为什么问这么多算法题。\n其实纠结面试的算法值不值得学，是本末倒置了。算法，在开发者日常工作中无处不在，真正的价值在于，能解决工程实战中存在的真实问题。所以越是薪资高的大厂，越会通过算法题考察面试者的思考问题和解决问题的能力。\n这个专栏将从实际工程问题的视角，为你呈上一堂实用、精彩的算法课。\n黄清昊老师不仅会和你讨论基础的数据结构和算法思想，更会着重帮你掌握这些算法是如何运行在真实的物理机器上的、是如何解决实际业务系统中的问题的，以及是如何在各个稳定运行的中间件、分布式系统、基础库中实现的。在这个过程中，你的思考问题和解决问题的能力都会得到锻炼，希望能真正帮助到有类似疑惑的你。\n\n课程设计\n专栏主要分为偏基础和偏实战的两部分，共 6 个模块，为你精讲开发工作中真正用得上的算法。\n正式学习之前，将通过一个简单、有趣、常用的文本差分算法为先导，探索那些就在开发者身边却常常被熟视无睹的算法，体验思维的乐趣。\n\n数据结构篇、算法思想篇\n\n这两个模块，包含了工程中常用的基础数据结构和算法思想，比如双向链表、动态数组、哈希表、红黑树、二分搜索、深度优先搜索、贪心算法等，由浅入深，推演算法的来历和特点，分析源码实现思路，不只是了解算法知识，更要理解工业级的算法实现是如何运行在真实的物理机上的。\n\n操作系统篇、计算机网络篇\n\n这两个模块，会带你学习两门非常重要的计算机基础课——操作系统和计算机网络中会用到的基础算法，同样会结合真实的网络库、操作系统的源码进行讲解。这样当你了解许多经典算法的发明背景和应用场景时，再结合操作系统和计算机网络的基础知识，你可以对算法有更深入的理解。\n\n分布式篇、工程实践篇\n\n学习高流量、高并发、高可用的现代互联网应用中各种算法的应用，解析 Redis、MySQL 和 MapReduce 等系统或者论文的经典源码。深入理解在各场景下如何拆解问题、应用算法，目的是升级编程思维，帮助你排查真实业务开发中的各种问题，做出良好的架构设计。\n最后将挑选出几个有趣的算法，在高手番外篇中不定期奉上。\n",
+			"intro_html": "\u003cp\u003e提到算法，不知道你有没有这样的疑惑。\u003c/p\u003e\n\u003cp\u003e之前花很多时间学的算法和数据结构，好像就是为了应对面试关，对日常的开发工作没有什么帮助。\u003c/p\u003e\n\u003cp\u003e入职之后，没什么机会和需求要手写一些基础的数据结构，往往做着 CURD 的活；算法的存在感，最多就是调用调用 JDK 的包、STL 的函数，算法就像是只存在于那些开箱即用的中间件和基础库中而已，和我们的日常开发没什么关系。\u003c/p\u003e\n\u003cp\u003e而且学习算法的过程相当痛苦，不只是学习曲线比较陡峭，主要还是平时可能完全用不到这些知识，边学边忘，没有连续的时间投入和充分的刻意练习。偶尔想起来做一做 LeetCode，发现刚学完的知识点根本记不住，不理解大厂面试为什么问这么多算法题。\u003c/p\u003e\n\u003cp\u003e其实纠结面试的算法值不值得学，是本末倒置了。算法，在开发者日常工作中无处不在，真正的价值在于，能解决工程实战中存在的真实问题。所以越是薪资高的大厂，越会通过算法题考察面试者的思考问题和解决问题的能力。\u003c/p\u003e\n\u003cp\u003e这个专栏将从实际工程问题的视角，为你呈上一堂实用、精彩的算法课。\u003c/p\u003e\n\u003cp\u003e黄清昊老师不仅会和你讨论基础的数据结构和算法思想，\u003cspan class=\"orange\"\u003e更会着重帮你掌握这些算法是如何运行在真实的物理机器上的、是如何解决实际业务系统中的问题的，以及是如何在各个稳定运行的中间件、分布式系统、基础库中实现的\u003c/span\u003e。在这个过程中，你的思考问题和解决问题的能力都会得到锻炼，希望能真正帮助到有类似疑惑的你。\u003cbr /\u003e\n\u003cimg src=\"https://static001.geekbang.org/resource/image/21/a1/2159f2971f0a674ca02c3a5b501228a1.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003ch3\u003e课程设计\u003c/h3\u003e\n\u003cp\u003e专栏主要分为偏基础和偏实战的两部分，共 6 个模块，为你精讲开发工作中真正用得上的算法。\u003c/p\u003e\n\u003cp\u003e正式学习之前，将通过一个简单、有趣、常用的文本差分算法为先导，探索那些就在开发者身边却常常被熟视无睹的算法，体验思维的乐趣。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e数据结构篇、算法思想篇\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e这两个模块，包含了工程中常用的基础数据结构和算法思想，比如双向链表、动态数组、哈希表、红黑树、二分搜索、深度优先搜索、贪心算法等，由浅入深，推演算法的来历和特点，分析源码实现思路，不只是了解算法知识，更要理解工业级的算法实现是如何运行在真实的物理机上的。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e操作系统篇、计算机网络篇\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e这两个模块，会带你学习两门非常重要的计算机基础课——操作系统和计算机网络中会用到的基础算法，同样会结合真实的网络库、操作系统的源码进行讲解。这样当你了解许多经典算法的发明背景和应用场景时，再结合操作系统和计算机网络的基础知识，你可以对算法有更深入的理解。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e分布式篇、工程实践篇\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e学习高流量、高并发、高可用的现代互联网应用中各种算法的应用，解析 Redis、MySQL 和 MapReduce 等系统或者论文的经典源码。深入理解在各场景下如何拆解问题、应用算法，目的是升级编程思维，帮助你排查真实业务开发中的各种问题，做出良好的架构设计。\u003c/p\u003e\n\u003cp\u003e最后将挑选出几个有趣的算法，在高手番外篇中不定期奉上。\u003c/p\u003e\n",
+			"ucode": "55D0542FA602D9",
+			"is_finish": false,
+			"author": {
+				"name": "黄清昊",
+				"intro": "EMQ X存储工程师，LeetCode高赞答主\n",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/f5/52/f5b2228704d4fdbef2bc1c08b36bf652.jpg",
+				"brief_html": "\u003cp\u003e黄清昊（微扰理论），前阿里云、字节跳动、腾讯工程师，毕业于上海交通大学。在 LeetCode 上刷了 800 多道题目，贡献了200 余篇优秀题解，对算法有深入理解，也因此在毕业后顺利完成了从前端到基础软件研发的方向转变。现任 EMQ X 存储工程师，对函数式编程和分布式系统有丰富的实战经验。\u003c/p\u003e\n\u003cp\u003e他将带你一起在工程实战中探索算法的魅力，去发现那些就在身边却常常被忽略的有趣算法们；让你不再只是纸上谈兵地了解各大常用算法的理论知识，更能将它们真正应用在日常工作中。\u003c/p\u003e\n",
+				"brief": "黄清昊（微扰理论），前阿里云、字节跳动、腾讯工程师，毕业于上海交通大学。在 LeetCode 上刷了 800 多道题目，贡献了200 余篇优秀题解，对算法有深入理解，也因此在毕业后顺利完成了从前端到基础软件研发的方向转变。现任 EMQ X 存储工程师，对函数式编程和分布式系统有丰富的实战经验。\n他将带你一起在工程实战中探索算法的魅力，去发现那些就在身边却常常被忽略的有趣算法们；让你不再只是纸上谈兵地了解各大常用算法的理论知识，更能将它们真正应用在日常工作中。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/f5/52/f5b2228704d4fdbef2bc1c08b36bf652.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/67/26/67f12efd3893fe22261b361cbea3e126.jpg",
+				"horizontal": "https://static001.geekbang.org/resource/image/7f/ae/7fb99bc8yy0dab43cc9d4aba94c78dae.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/3c/35/3c5d7f11274e3b0ae882d1dccedc2c35.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/57/12/57783ef607140a4131226e3bc01d1912.png",
+				"transparent": "https://static001.geekbang.org/resource/image/1d/73/1dbe772b8c83b715df9a3e3d870dc373.png",
+				"color": "#b4cee5"
+			},
+			"article": {
+				"id": 0,
+				"count": 37,
+				"count_req": 37,
+				"count_pub": 4,
+				"total_length": 4289,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["黄清昊", "算法", "真实", "工程", "应用", "数组", "链表", "红黑树", "数据结构", "差分", "git diff"]
+			},
+			"share": {
+				"title": "黄清昊 · 算法实战高手课",
+				"content": "从算法的工程实践开始，提升问题解决能力",
+				"cover": "https://static001.geekbang.org/resource/image/f5/52/f5b2228704d4fdbef2bc1c08b36bf652.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/67/62/675385c1f9be7f5bd17e6bc3928d7d62.jpg"
+			},
+			"labels": [9, 75, 79, 82],
+			"unit": "37讲",
+			"column_type": 1,
+			"column": {
+				"unit": "37讲",
+				"bgcolor": "F6F7FB",
+				"update_frequency": "每周二 / 四 / 六更新",
+				"is_preorder": false,
+				"is_finish": false,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 8, 9, 11, 14],
+				"path": {
+					"desc": "你将获得：\n\n35 类算法实战应用场景；\n6 大领域常用算法知识体系；\n源码剖析+手写实现，深入细节；\n清晰图解+论文精读，吃透算法。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e35 类算法实战应用场景；\u003c/li\u003e\n\u003cli\u003e6 大领域常用算法知识体系；\u003c/li\u003e\n\u003cli\u003e源码剖析+手写实现，深入细节；\u003c/li\u003e\n\u003cli\u003e清晰图解+论文精读，吃透算法。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/55/62/555fc186bf5e6b2007bd84399d102d62.jpg",
+				"recommend_articles": [465406, 465423, 466065],
+				"recommend_comments": [325429, 325444],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 3,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": ""
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 788,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 19,
+					"status": 0,
+					"url": "https://jinshuju.net/f/HzWMHi"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 0,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 0,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "2E456F",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/2c/cd/2c2ac0b00ac43a2bb9eebf23a8ed39cd.jpeg",
+					"promo_pic_color": "2E456F",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/0c/10/0c912d6382ec4ac1b51356b129502c10.jpeg",
+					"share_sale_price": 2000,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 1640188799
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 5900,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n35 类算法实战应用场景\n6 大领域常用算法知识体系\n源码剖析+手写实现，深入细节\n清晰图解+论文精读，吃透算法\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2553]
+		}, {
+			"id": 100017301,
+			"spu": 173,
+			"ctime": 1536893949,
+			"utime": 1639362222,
+			"begin_time": 1537113600,
+			"end_time": 1546704000,
+			"price": {
+				"market": 19900,
+				"sale": 12900,
+				"sale_type": 3,
+				"start_time": 1638342562,
+				"end_time": 1675180799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": true,
+			"is_promo": false,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "数据结构与算法之美",
+			"subtitle": "为工程师量身打造的数据结构与算法私教课",
+			"intro": "踏上了编程之路，也就意味着你选择了一种终身学习的生活方式。每一个程序员都要练就十八般武艺，而掌握数据结构与算法就像修炼了九阳神功。换句话说，掌握了数据结构与算法，你的内功修炼速度就会有质的飞跃。\n无论你是从事业务开发，想要评估代码性能和资源消耗；还是从事架构设计，想要优化设计模式；或者想要快速玩转热门技术，比如人工智能、区块链，都要先搞定数据结构与算法。因为，任凭新技术如何变化，只要掌握了这些计算机科学的核心“招式”，你就可以见招拆招，始终立于“不败之地”。\n那怎样才能真正掌握数据结构与算法呢？是把常用的数据结构与算法背得滚瓜烂熟吗？即便如此，面对现实世界的千变万化，你也不太可能照搬某个算法解决即将遇到的下一个问题。因此，就像学习设计模式、架构模式一样，学习数据结构与算法的关键，在于掌握其中的思想和精髓，学会解决实际问题的方法。\n专栏分为4个由浅入深的模块。\n\n入门篇\n\n为什么要学习数据结构与算法？数据结构与算法该怎么学？学习的重点又是什么？这一模块将为你指明数据结构与算法的学习路径；并着重介绍贯穿整个专栏学习的重要概念：时间复杂度和空间复杂度，为后面的学习打好基础。\n\n基础篇\n\n将介绍最常见、最重要的数据结构与算法。每种都从“来历”“特点”“适合解决的问题”“实际的应用场景”出发，进行详细介绍；并配有清晰易懂的手绘图解，由浅入深进行讲述；还适时总结一些实用“宝典”，教你解决真实开发问题的思路和方法。\n\n\n高级篇\n\n将从概念和应用的角度，深入剖析一些稍复杂的数据结构与算法，推演海量数据下的算法问题解决过程；帮你更加深入理解算法精髓，开拓视野，训练逻辑；真正带你升级算法思维，修炼深厚的编程内功。\n\n实战篇\n\n将通过实战案例串讲前面讲到的数据结构和算法；并拿一些开源项目和框架，剖析它们背后的数据结构和算法；并带你用学过的内容实现一个短网址系统；深化对概念和应用的理解，灵活使用数据结构和算法。\n",
+			"intro_html": "\u003cp\u003e踏上了编程之路，也就意味着你选择了一种终身学习的生活方式。每一个程序员都要练就十八般武艺，而掌握数据结构与算法就像修炼了九阳神功。换句话说，掌握了数据结构与算法，你的内功修炼速度就会有质的飞跃。\u003c/p\u003e\n\u003cp\u003e无论你是从事业务开发，想要评估代码性能和资源消耗；还是从事架构设计，想要优化设计模式；或者想要快速玩转热门技术，比如人工智能、区块链，都要先搞定数据结构与算法。因为，任凭新技术如何变化，只要掌握了这些计算机科学的核心“招式”，你就可以见招拆招，始终立于“不败之地”。\u003c/p\u003e\n\u003cp\u003e那怎样才能真正掌握数据结构与算法呢？是把常用的数据结构与算法背得滚瓜烂熟吗？即便如此，面对现实世界的千变万化，你也不太可能照搬某个算法解决即将遇到的下一个问题。因此，就像学习设计模式、架构模式一样，\u003cstrong\u003e学习数据结构与算法的关键，在于掌握其中的思想和精髓，学会解决实际问题的方法\u003c/strong\u003e。\u003c/p\u003e\n\u003cp\u003e专栏分为4个\u003cstrong\u003e由浅入深\u003c/strong\u003e的模块。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e入门篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e为什么要学习数据结构与算法？数据结构与算法该怎么学？学习的重点又是什么？这一模块将为你指明数据结构与算法的学习路径；并着重介绍贯穿整个专栏学习的重要概念：时间复杂度和空间复杂度，为后面的学习打好基础。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e基础篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e将介绍最常见、最重要的数据结构与算法。每种都从“来历”“特点”“适合解决的问题”“实际的应用场景”出发，进行详细介绍；并配有清晰易懂的手绘图解，由浅入深进行讲述；还适时总结一些实用“宝典”，教你解决真实开发问题的思路和方法。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/92/9f/92b71261f3e5f37ffc49ced520e80c9f.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e高级篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e将从概念和应用的角度，深入剖析一些稍复杂的数据结构与算法，推演海量数据下的算法问题解决过程；帮你更加深入理解算法精髓，开拓视野，训练逻辑；真正带你升级算法思维，修炼深厚的编程内功。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e实战篇\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e将通过实战案例串讲前面讲到的数据结构和算法；并拿一些开源项目和框架，剖析它们背后的数据结构和算法；并带你用学过的内容实现一个短网址系统；深化对概念和应用的理解，灵活使用数据结构和算法。\u003c/p\u003e\n",
+			"ucode": "2B611BE0E0EDD4",
+			"is_finish": true,
+			"author": {
+				"name": "王争",
+				"intro": "前Google工程师",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/11/5b/11a3a5aa2f5879ec88b284044bacd55b.jpg",
+				"brief_html": "\u003cp\u003e王争，前Google工程师，从事Google翻译相关系统的开发，深入研究算法十余年。现任某金融公司核心系统资深系统架构师，负责公司核心业务的架构设计和开发。\u003c/p\u003e\n\u003cp\u003e他将采用最适合工程师的学习方式，\u003cstrong\u003e不拘泥于某一特定编程语言\u003c/strong\u003e，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。\u003c/p\u003e\n",
+				"brief": "王争，前Google工程师，从事Google翻译相关系统的开发，深入研究算法十余年。现任某金融公司核心系统资深系统架构师，负责公司核心业务的架构设计和开发。\n他将采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/11/5b/11a3a5aa2f5879ec88b284044bacd55b.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/2f/62/2f7846e66d45d591c6f7bfa4b4600062.jpg",
+				"horizontal": "https://static001.geekbang.org/resource/image/bb/13/ff6e491b83fdc4e32561ad1a1f7b.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/6d/12/6dd52f89538aba1f7031cab306581412.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/f9/c4/f9472420a31fc439018d2cdf16501ac4.png",
+				"transparent": "https://static001.geekbang.org/resource/image/9f/50/9f82b90183a98846ac092dce20834550.png",
+				"color": "#d4c6c6"
+			},
+			"article": {
+				"id": 0,
+				"count": 81,
+				"count_req": 58,
+				"count_pub": 81,
+				"total_length": 56528,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["算法实战", "算法面试"]
+			},
+			"share": {
+				"title": "王争 · 数据结构与算法之美",
+				"content": "为工程师量身打造的数据结构与算法私教课",
+				"cover": "https://static001.geekbang.org/resource/image/11/5b/11a3a5aa2f5879ec88b284044bacd55b.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/0b/0c/0b646824c9d90e894322cfedd797630c.jpg"
+			},
+			"labels": [9, 63, 5, 58, 8, 69, 75],
+			"unit": "81讲",
+			"column_type": 1,
+			"column": {
+				"unit": "81讲",
+				"bgcolor": "9b7a7a",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5, 6, 8, 11, 12, 14],
+				"path": {
+					"desc": "你将获得：\n\n\n20个经典数据结构与算法；\n\n\n100个真实项目场景案例；\n\n\n文科生都能懂的算法手绘图解；\n\n\n轻松搞定BAT的面试通关秘籍。\n\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e20个经典数据结构与算法；\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e100个真实项目场景案例；\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e文科生都能懂的算法手绘图解；\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e轻松搞定BAT的面试通关秘籍。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/1b/ae/1b969cfe410a43d5f2b148c255beb3ae.jpg",
+				"recommend_articles": [40036, 40961, 41802, 74788, 78175, 79433],
+				"recommend_comments": [291042, 24638],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 3,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/95/8e/955e7671ebeb471253bf430c6c17218e.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 119638,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 29,
+					"status": 0,
+					"url": "https://jinshuju.net/f/Ie9yCN"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 2,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 12900,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "602622",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/75/75/7589d452aa3f67f6d1505ebc84ea1b75.jpeg",
+					"promo_pic_color": "602622",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/bb/4f/bb9e09e7c47b0f0fe3a2e3ea36917a4f.jpeg",
+					"share_sale_price": 2400,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 0
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 6800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n\n20个经典数据结构与算法；\n\n\n100个真实项目场景案例；\n\n\n文科生都能懂的算法手绘图解；\n\n\n轻松搞定BAT的面试通关秘籍。\n\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2308]
+		}, {
+			"id": 100020801,
+			"spu": 208,
+			"ctime": 1541727960,
+			"utime": 1639362375,
+			"begin_time": 1541692800,
+			"end_time": 1551283200,
+			"price": {
+				"market": 19900,
+				"sale": 12900,
+				"sale_type": 3,
+				"start_time": 1628697600,
+				"end_time": 1661961599
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": true,
+			"is_promo": false,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "MySQL实战45讲",
+			"subtitle": "从原理到实战，丁奇带你搞懂MySQL",
+			"intro": "MySQL 使用和面试中遇到的问题，很多人会通过搜索别人的经验来解决 ，零散不成体系。实际上只要理解了 MySQL 的底层工作原理，就能很快地直戳问题的本质。\n本专栏一共 45 讲，全集更新完毕，通过探讨 MySQL 实战中最常见的 36 个 痛点问题，串起各个零散的知识点，配合  100+ 手绘详解图，由线到面带你构建 MySQL 系统的学习路径。\n在专栏中，丁奇结合自己十多年来，通过 MySQL 源码找答案的经历，梳理了 MySQL 的主线知识，比如事务、索引、锁等；并基于这条主线，带你缕清概念、机制、原理、案例分析以及本质，让你真正能掌握 MySQL 核心技术与底层原理。\n值得一提的是，每篇文章中都附有实践案例，给你从理论到实战的系统性指导，让你少走弯路，彻底搞懂 MySQL。\n本课程共包括两大模块。\n模块一，基础篇。为你深入浅出地讲述 MySQL 核心知识，涵盖 MySQL 基础架构、日志系统、事务隔离、锁等内容。\n模块二，实践篇。将从一个个关键的数据库问题出发，分析数据库原理，并给出实践指导。每个问题，都不只是简单地给出答案，而是从为什么要这么想、到底该怎样做出发，让你能够知其所以然，都将能够解决你平时工作中的一个疑惑点。\n",
+			"intro_html": "\u003cp\u003eMySQL 使用和面试中遇到的问题，很多人会通过搜索别人的经验来解决 ，零散不成体系。实际上只要理解了 MySQL 的底层工作原理，就能很快地直戳问题的本质。\u003c/p\u003e\n\u003cp\u003e本专栏一共 \u003cstrong\u003e45\u003c/strong\u003e 讲，\u003cstrong\u003e全集\u003c/strong\u003e更新完毕，通过探讨 MySQL 实战中最常见的 \u003cstrong\u003e36 个\u003c/strong\u003e 痛点问题，串起各个零散的知识点，配合  \u003cstrong\u003e100+\u003c/strong\u003e 手绘详解图，由线到面带你构建 MySQL 系统的学习路径。\u003c/p\u003e\n\u003cp\u003e在专栏中，丁奇结合自己十多年来，通过 MySQL 源码找答案的经历，梳理了 \u003cstrong\u003eMySQL 的主线知识\u003c/strong\u003e，比如\u003cstrong\u003e事务、索引、锁\u003c/strong\u003e等；并基于这条主线，带你缕清\u003cstrong\u003e概念、机制、原理、案例分析\u003c/strong\u003e以及本质，让你真正能掌握 \u003cstrong\u003eMySQL 核心技术与底层原理。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e值得一提的是，每篇文章中都附有\u003cstrong\u003e实践案例\u003c/strong\u003e，给你从理论到实战的系统性指导，让你少走弯路，彻底搞懂 MySQL。\u003c/p\u003e\n\u003cp\u003e本课程共包括两大模块。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e模块一，基础篇\u003c/strong\u003e。为你深入浅出地讲述 MySQL 核心知识，涵盖 MySQL 基础架构、日志系统、事务隔离、锁等内容。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e模块二，实践篇\u003c/strong\u003e。将从一个个关键的数据库问题出发，分析数据库原理，并给出实践指导。每个问题，都不只是简单地给出答案，而是从为什么要这么想、到底该怎样做出发，让你能够知其所以然，都将能够解决你平时工作中的一个疑惑点。\u003c/p\u003e\n",
+			"ucode": "",
+			"is_finish": true,
+			"author": {
+				"name": "林晓斌",
+				"intro": "网名丁奇，腾讯云数据库负责人",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/59/db/598593a4da4fd7ea898711cc623292db.jpg",
+				"brief_html": "\u003cp\u003e林晓斌，网名\u003cstrong\u003e“丁奇”，腾讯云数据库负责人，前阿里 P9 技术专家\u003c/strong\u003e，曾负责阿里云 RDS 内核开发团队和运维团队，并推动了 AliSQL 分支开源。作为活跃的 MySQL 社区贡献者，丁奇专注于数据存储系统、MySQL 源码研究和改进、MySQL 性能优化和功能改进，热衷于解决 MySQL 疑难问题。\u003c/p\u003e\n",
+				"brief": "林晓斌，网名“丁奇”，腾讯云数据库负责人，前阿里 P9 技术专家，曾负责阿里云 RDS 内核开发团队和运维团队，并推动了 AliSQL 分支开源。作为活跃的 MySQL 社区贡献者，丁奇专注于数据存储系统、MySQL 源码研究和改进、MySQL 性能优化和功能改进，热衷于解决 MySQL 疑难问题。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/59/db/598593a4da4fd7ea898711cc623292db.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/92/9a/921b5f43c8b3ebf74ee69e5749ae659a.png",
+				"horizontal": "https://static001.geekbang.org/resource/image/9b/25/9b33b159566f26d1548c91b8f70e9a25.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/21/f9/216273057ccf3aac8399e7f5d63897f9.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/52/9c/52846990bb3d0f02c094302a3cdfa19c.png",
+				"transparent": "https://static001.geekbang.org/resource/image/c4/fe/c484a5eae415894fd3ce3517d3adc3fe.png",
+				"color": "#b9c1c4"
+			},
+			"article": {
+				"id": 0,
+				"count": 49,
+				"count_req": 47,
+				"count_pub": 49,
+				"total_length": 44297,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["MySQL", "数据库"]
+			},
+			"share": {
+				"title": "丁奇 · MySQL实战45讲",
+				"content": "作者是腾讯云数据库负责人丁奇，他会带你梳理出学习 MySQL 的主线知识，比如事务、索引、锁等，还会就开发过程中经常遇到的具体问题和你分析讨论，并且帮你理解问题背后的本质。",
+				"cover": "https://static001.geekbang.org/resource/image/59/db/598593a4da4fd7ea898711cc623292db.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/be/88/beff98556ac339ddc14b97609cea9288.jpg"
+			},
+			"labels": [69, 9, 3, 13, 6, 78],
+			"unit": "49讲",
+			"column_type": 1,
+			"column": {
+				"unit": "49讲",
+				"bgcolor": "f6f7f9",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5, 6, 8, 9, 11],
+				"path": {
+					"desc": "你将获得：\n\n腾讯云数据库负责人独家经验分享；\nMySQL 核心技术详解与原理说明；\n36 个 MySQL 常见痛点问题解析；\n完整的 MySQL 学习路径。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e腾讯云数据库负责人独家经验分享；\u003c/li\u003e\n\u003cli\u003eMySQL 核心技术详解与原理说明；\u003c/li\u003e\n\u003cli\u003e36 个 MySQL 常见痛点问题解析；\u003c/li\u003e\n\u003cli\u003e完整的 MySQL 学习路径。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/b7/c2/b736f37014d28199c2457a67ed669bc2.jpg",
+				"recommend_articles": [69236, 70562, 75173, 75659, 79026, 82231],
+				"recommend_comments": [281607, 146234],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 4,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/90/3f/902fc91e30f2e4b6588b2c3ce5fa0c3f.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 84449,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 24,
+					"status": 0,
+					"url": "https://jinshuju.net/f/Aaa9IQ"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 2,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 12900,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "595656",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/ac/40/ac15742dc78a287244ad13b2e7cca840.png",
+					"promo_pic_color": "514E47",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/9b/df/9b774ea0dfcd8c06558db6acb8682cdf.png",
+					"share_sale_price": 2400,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 0
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 6800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n腾讯云数据库负责人独家经验分享；\nMySQL 核心技术详解与原理说明；\n36 个 MySQL 常见痛点问题解析；\n完整的 MySQL 学习路径。\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2269]
+		}, {
+			"id": 100002201,
+			"spu": 22,
+			"ctime": 1505908992,
+			"utime": 1639362289,
+			"begin_time": 1507564800,
+			"end_time": 1539014400,
+			"price": {
+				"market": 39900,
+				"sale": 29900,
+				"sale_type": 2,
+				"start_time": 1639152000,
+				"end_time": 1639756799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": false,
+			"is_promo": true,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "左耳听风",
+			"subtitle": "洞悉技术的本质，享受科技的乐趣",
+			"intro": "在这个付费专栏中，除了继续保持观点鲜明的行文风格，左耳朵耗子还会分享一些与个人或企业切身利益更为相关的内容，或者说更具指导性、更有商业价值的东西。\n下面是他在开篇词中的自述：\n第一部分：技术\n对于技术方面，我不会写太多关于知识点的东西，因为这些知识点你可以自行 Google 可以 RTFM。我要写的一定是以体系化的，而且要能直达技术的本质。入行这 20 年来，我最擅长的就是架构和开发各种大规模的系统，所以，我会有 2-3 个和分布式系统相关的系列文章。\n第二部分：成长\n成长在过去这 20 年中，我感觉到，很多人都非常在意自己的成长。所以，我会分享一堆我亲身经历的，也是我自己实验的与个人发展相关的文章。比如，如何利用技术变现、如何面试、如何选择新的技术、如何学习、如何管理自己的时间、如何管理自己的老板和工作、如何成为一个 Leader……这些东西一定会对你有用。\n第三部分：管理\n这些年，我觉得做好技术工作的前提是，得做好技术的管理工作。只有管理好了软件工程和技术团队，技术才能发挥出最大的潜力。大多数的技术问题都是管理上的问题。所以，我会写上一系列的和管理相关的文章，涵盖管理三个要素：团队、项目和管理者自己。比如，人员招聘、绩效考核、提升士气、解决冲突、面对变化、沟通说服、项目管理、任务排期、会议、远程管理，等等。\n",
+			"intro_html": "\u003cp\u003e在这个付费专栏中，除了继续保持观点鲜明的行文风格，左耳朵耗子还会分享一些与个人或企业切身利益更为相关的内容，或者说更具指导性、更有商业价值的东西。\u003c/p\u003e\n\u003cp\u003e下面是他在开篇词中的自述：\u003c/p\u003e\n\u003cp\u003e第一部分：技术\u003c/p\u003e\n\u003cp\u003e对于技术方面，我不会写太多关于知识点的东西，因为这些知识点你可以自行 Google 可以 RTFM。我要写的一定是以体系化的，而且要能直达技术的本质。入行这 20 年来，我最擅长的就是架构和开发各种大规模的系统，所以，我会有 2-3 个和分布式系统相关的系列文章。\u003c/p\u003e\n\u003cp\u003e第二部分：成长\u003c/p\u003e\n\u003cp\u003e成长在过去这 20 年中，我感觉到，很多人都非常在意自己的成长。所以，我会分享一堆我亲身经历的，也是我自己实验的与个人发展相关的文章。比如，如何利用技术变现、如何面试、如何选择新的技术、如何学习、如何管理自己的时间、如何管理自己的老板和工作、如何成为一个 Leader……这些东西一定会对你有用。\u003c/p\u003e\n\u003cp\u003e第三部分：管理\u003c/p\u003e\n\u003cp\u003e这些年，我觉得做好技术工作的前提是，得做好技术的管理工作。只有管理好了软件工程和技术团队，技术才能发挥出最大的潜力。大多数的技术问题都是管理上的问题。所以，我会写上一系列的和管理相关的文章，涵盖管理三个要素：团队、项目和管理者自己。比如，人员招聘、绩效考核、提升士气、解决冲突、面对变化、沟通说服、项目管理、任务排期、会议、远程管理，等等。\u003c/p\u003e\n",
+			"ucode": "8A4741D677702E",
+			"is_finish": true,
+			"author": {
+				"name": "陈皓",
+				"intro": "网名“左耳朵耗子”，资深技术专家，骨灰级程序员",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/21/da/216b472de3f9027371576e107601c2da.jpg",
+				"brief_html": "\u003cp\u003e陈皓，人称耗子叔，是一位四十多岁的中年老男人，体型肥胖，白发苍苍，观点鲜明，个性十足。\u003c/p\u003e\n\u003cp\u003e他有20年软件开发及相关工作经验，先后在阿里巴巴、亚马逊、汤森路透等知名公司任职，对IT底层技术平台有深入的了解，尤其在大规模分布式系统的基础架构方面颇有研究。此外，他在团队管理、项目管理，以及程序员个人成长等方面也有自己一套独特的见解和方法。\u003c/p\u003e\n\u003cp\u003e\u003cvideo poster=\"https://static001.geekbang.org/resource/image/c5/4c/c52eea577fcea564ca935d30aa80034c.jpg\" preload=\"none\" controls\u003e\u003csource src=\"https://res001.geekbang.org/resource/video/81/74/81b0fce204ea5f07ca7b4f3f65066274.mp4\" type=\"video/mp4\" /\u003e\u003csource src=\"https://res001.geekbang.org/media/video/81/74/81b0fce204ea5f07ca7b4f3f65066274/sd.m3u8\" type=\"application/x-mpegURL\" /\u003e\u003c/video\u003e\u003c/p\u003e\n\u003cp\u003e从2002年开始写技术博客，到2009年左右在独立域名 CoolShell.cn（酷壳）上分享技术观点和实践总结，陈皓通过一篇篇观点鲜明、文风犀利的文章吸引了大量IT从业人员的关注，影响了成千上万程序员在技术选型、求职就业、个人成长等方面的思考和发展。\u003c/p\u003e\n\u003cp\u003e虽然有些会被读者认同，有些则会引来争议，但他一直坚持观点鲜明的写作风格，并希望这些观点能引起大家的讨论和点评。他认为，只有这样，分享才更有意义，也能让大家都能从中收获更多。\u003c/p\u003e\n\u003cp\u003e除了继续保持观点鲜明、犀利的行文风格，在“左耳听风”专栏中的每篇文章都是陈皓对自己多年“堵过的枪眼儿”“填过的坑儿”的深入思考和凝练，是一些与个人或企业切身利益相关的内容，或者说是更具指导性、更为商业化的内容。用他自己的话说，是一些非常来之不易的宝贵经验。\u003c/p\u003e\n",
+				"brief": "陈皓，人称耗子叔，是一位四十多岁的中年老男人，体型肥胖，白发苍苍，观点鲜明，个性十足。\n他有20年软件开发及相关工作经验，先后在阿里巴巴、亚马逊、汤森路透等知名公司任职，对IT底层技术平台有深入的了解，尤其在大规模分布式系统的基础架构方面颇有研究。此外，他在团队管理、项目管理，以及程序员个人成长等方面也有自己一套独特的见解和方法。\n\n从2002年开始写技术博客，到2009年左右在独立域名 CoolShell.cn（酷壳）上分享技术观点和实践总结，陈皓通过一篇篇观点鲜明、文风犀利的文章吸引了大量IT从业人员的关注，影响了成千上万程序员在技术选型、求职就业、个人成长等方面的思考和发展。\n虽然有些会被读者认同，有些则会引来争议，但他一直坚持观点鲜明的写作风格，并希望这些观点能引起大家的讨论和点评。他认为，只有这样，分享才更有意义，也能让大家都能从中收获更多。\n除了继续保持观点鲜明、犀利的行文风格，在“左耳听风”专栏中的每篇文章都是陈皓对自己多年“堵过的枪眼儿”“填过的坑儿”的深入思考和凝练，是一些与个人或企业切身利益相关的内容，或者说是更具指导性、更为商业化的内容。用他自己的话说，是一些非常来之不易的宝贵经验。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/21/da/216b472de3f9027371576e107601c2da.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/52/69/5230de72858466240104244b6fc9d769.png",
+				"horizontal": "https://static001.geekbang.org/resource/image/dc/77/43543a22664df67768f71df94ac0.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/03/1d/03173ebb07347b3bcaf8557f24ed4e1d.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/15/08/157ffbbdabe2315de5dffd46d394e308.png",
+				"transparent": "https://static001.geekbang.org/resource/image/d8/ed/d8ae4c5b482e0420f1da9a993fec7aed.png",
+				"color": "#bfccd4"
+			},
+			"article": {
+				"id": 0,
+				"count": 118,
+				"count_req": 102,
+				"count_pub": 118,
+				"total_length": 82899,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["分布式", "酷壳"]
+			},
+			"share": {
+				"title": "陈皓 · 左耳听风",
+				"content": "左耳朵耗子的专栏，20年骨灰级程序员，专栏涵盖程序员练级攻略、全栈程序员的体系化学习路线与进阶底图。专栏已有32000人加入学习，可以说是程序员必备宝典。",
+				"cover": "https://static001.geekbang.org/resource/image/21/da/216b472de3f9027371576e107601c2da.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/08/c1/084b2e8b8757ccb8401d6e6501ef8bc1.jpg"
+			},
+			"labels": [3, 10, 11, 12, 13, 17, 20, 22, 23],
+			"unit": "118讲",
+			"column_type": 1,
+			"column": {
+				"unit": "118讲",
+				"bgcolor": "6091b2",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5],
+				"path": {
+					"desc": "你将获得：\n\n主流语言编程范式详解；\n分布式系统关键技术剖析；\n程序员练级攻略；\n高效学习的方法以及面试经验。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e主流语言编程范式详解；\u003c/li\u003e\n\u003cli\u003e分布式系统关键技术剖析；\u003c/li\u003e\n\u003cli\u003e程序员练级攻略；\u003c/li\u003e\n\u003cli\u003e高效学习的方法以及面试经验。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/7f/7b/7f428c8dd8f26668a727bd46227ec17b.jpg",
+				"recommend_articles": [291, 471, 2017, 5363, 11232, 14271],
+				"recommend_comments": [],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 2,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/9b/33/9b35dc16024bed38c194f06db9d22933.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 59796,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 51,
+					"status": 0,
+					"url": "https://jinshuju.net/f/R4P5ZU"
+				},
+				"any_read": {
+					"total": 6,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 0,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 0,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "FFFFFF",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/3d/42/3dc6f1c82bd42ccddeaaf75c262aa242.jpeg",
+					"promo_pic_color": "FFFFFF",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/31/3f/31eaa82cef0d4cbc738088caf48c4b3f.jpeg",
+					"share_sale_price": 3600,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 1639756799
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 9800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n主流语言编程范式详解\n分布式系统关键技术剖析\n程序员练级攻略\n高效学习的方法以及面试经验\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2549]
+		}, {
+			"id": 100006601,
+			"spu": 66,
+			"ctime": 1524131479,
+			"utime": 1639362318,
+			"begin_time": 1524585600,
+			"end_time": 1534867200,
+			"price": {
+				"market": 19900,
+				"sale": 12900,
+				"sale_type": 3,
+				"start_time": 1638720000,
+				"end_time": 1672502399
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": true,
+			"is_promo": false,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "从0开始学架构",
+			"subtitle": "前阿里P9技术专家的实战架构心法",
+			"intro": "程序员的成长绕不开架构设计，有时架构设计就像鸿沟一样挡在程序员晋升之路上，只要跨过去就可以海阔天空。\n但不少技术能力很强的程序员依然不能完全掌握架构设计，这与架构设计的思维方式和训练机制与写代码有很大差异有关，加之人们对架构设计存在很多误区，缺乏一套行之有效的架构设计方法论，就可能导致在实践过程中把握不住重点、分不清主次；或者，没有彻底掌握架构设计的原则，在设计上举棋不定。\n也许你还是个架构新手，缺乏一个可以参考指导的架构设计流程；或者，虽然有一定经验，但还不能对已有模式进行技术创新。这些问题都可以在这个课程中找到答案。\n专栏分为5部分。\n\n\n架构基础：将介绍架构设计的历史背景，阐述架构相关的概念以及架构设计的本质；提炼三个核心架构设计原则；详细描述架构设计的标准流程和步骤。\n\n\n高性能架构模式：将介绍高性能数据库集群读写分离、分库分表两种方案，NoSQL方案的典型特征和应用场景，缓存的架构设计三大要点；介绍PPC、TPC、Reactor、Proactor模型提升性能，以及负载均衡的分类与架构、算法与优缺点。\n\n\n高可用架构模式：将介绍CAP原理的理解和应用、FMEA分析方法；从主备、主从、主主、集群、分区详解常见的高可用存储架构；给出如何设计高可用计算架构；使用异地多活方案保障业务高可用的技巧和步骤。\n\n\n可扩展架构模式：将概述可扩展模式及其基本思想，详解分层架构、SOA架构、微服务及微内核架构。\n\n\n架构实战：将理论与案例结合，在实战中落地专栏传递的架构原则、架构流程和架构模式。\n\n\n",
+			"intro_html": "\u003cp\u003e程序员的成长绕不开架构设计，有时架构设计就像鸿沟一样挡在程序员晋升之路上，只要跨过去就可以海阔天空。\u003c/p\u003e\n\u003cp\u003e但不少技术能力很强的程序员依然不能完全掌握架构设计，这与架构设计的思维方式和训练机制与写代码有很大差异有关，加之人们对架构设计存在很多误区，缺乏一套行之有效的架构设计方法论，就可能导致在实践过程中把握不住重点、分不清主次；或者，没有彻底掌握架构设计的原则，在设计上举棋不定。\u003c/p\u003e\n\u003cp\u003e也许你还是个架构新手，缺乏一个可以参考指导的架构设计流程；或者，虽然有一定经验，但还不能对已有模式进行技术创新。这些问题都可以在这个课程中找到答案。\u003c/p\u003e\n\u003cp\u003e专栏分为5部分。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e架构基础\u003c/strong\u003e：将介绍架构设计的历史背景，阐述架构相关的概念以及架构设计的本质；提炼三个核心架构设计原则；详细描述架构设计的标准流程和步骤。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e高性能架构模式\u003c/strong\u003e：将介绍高性能数据库集群读写分离、分库分表两种方案，NoSQL方案的典型特征和应用场景，缓存的架构设计三大要点；介绍PPC、TPC、Reactor、Proactor模型提升性能，以及负载均衡的分类与架构、算法与优缺点。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e高可用架构模式\u003c/strong\u003e：将介绍CAP原理的理解和应用、FMEA分析方法；从主备、主从、主主、集群、分区详解常见的高可用存储架构；给出如何设计高可用计算架构；使用异地多活方案保障业务高可用的技巧和步骤。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e可扩展架构模式\u003c/strong\u003e：将概述可扩展模式及其基本思想，详解分层架构、SOA架构、微服务及微内核架构。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e架构实战\u003c/strong\u003e：将理论与案例结合，在实战中落地专栏传递的架构原则、架构流程和架构模式。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+			"ucode": "851FF94CF5133A",
+			"is_finish": true,
+			"author": {
+				"name": "李运华",
+				"intro": "前阿里资深技术专家（P9）",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/a9/ed/a96b163e2d9bf19cdfc0f5d0d69e13ed.jpg",
+				"brief_html": "\u003cp\u003e李运华，前阿里资深技术专家。在阿里时带领多个研发团队，承担架构设计、架构重构、技术团队管理、技术培训等职责，曾就职于华为和UCWeb，写过《面向对象葵花宝典》一书。\u003c/p\u003e\n\u003cp\u003e华仔从2006年开始接触架构设计，花费8年时间掌握架构设计的精髓，走过了从程序员到架构师的蜕变之路，也踩过了这条路上的很多坑。后来他带了团队，特别是做了职业等级晋升评委后，看到了一大批优秀程序员的晋升卡在架构设计上，也越来越能体会架构设计特性所导致的学习和实战方面的问题。\u003c/p\u003e\n\u003cp\u003e在本专栏中，华仔会从架构基础、三大架构模式和实战的角度分享他一整套的架构设计方法论，希望你学习后不仅能够快速理解陌生的架构设计，自己也能对架构设计游刃有余，并且可以给身边正在迷惘的同学指点迷津，实践所学，分享所学。\u003c/p\u003e\n\u003cp\u003e华仔曾在专栏发布之初立下flag，“技术既改变自己，也惠泽他人”，他将在专栏结束后，按照订阅人数每人捐出一份免费午餐。现在本专栏已更新完毕，华仔也兑现了承诺，感谢你和华仔一起点亮希望！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static001.geekbang.org/resource/image/3e/61/3e1f4fd82b08dbd0f701d975baa3f261.jpeg\" alt=\"\" /\u003e\u003c/p\u003e\n",
+				"brief": "李运华，前阿里资深技术专家。在阿里时带领多个研发团队，承担架构设计、架构重构、技术团队管理、技术培训等职责，曾就职于华为和UCWeb，写过《面向对象葵花宝典》一书。\n华仔从2006年开始接触架构设计，花费8年时间掌握架构设计的精髓，走过了从程序员到架构师的蜕变之路，也踩过了这条路上的很多坑。后来他带了团队，特别是做了职业等级晋升评委后，看到了一大批优秀程序员的晋升卡在架构设计上，也越来越能体会架构设计特性所导致的学习和实战方面的问题。\n在本专栏中，华仔会从架构基础、三大架构模式和实战的角度分享他一整套的架构设计方法论，希望你学习后不仅能够快速理解陌生的架构设计，自己也能对架构设计游刃有余，并且可以给身边正在迷惘的同学指点迷津，实践所学，分享所学。\n华仔曾在专栏发布之初立下flag，“技术既改变自己，也惠泽他人”，他将在专栏结束后，按照订阅人数每人捐出一份免费午餐。现在本专栏已更新完毕，华仔也兑现了承诺，感谢你和华仔一起点亮希望！\n\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/a9/ed/a96b163e2d9bf19cdfc0f5d0d69e13ed.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/1e/11/1ed1f145eebc651f7a07c60311ebc511.png",
+				"horizontal": "https://static001.geekbang.org/resource/image/45/d1/45acbabcb46d35412dbd0f3ccd89d7d1.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/18/4f/183ddab1c7c2659ef335574fd1fb994f.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/f0/5f/f091169dca09e4e6a6da371db029275f.png",
+				"transparent": "https://static001.geekbang.org/resource/image/8f/59/8f9223cf6030681d8ef1af72842c6959.png",
+				"color": "#a3c0ce"
+			},
+			"article": {
+				"id": 0,
+				"count": 64,
+				"count_req": 52,
+				"count_pub": 64,
+				"total_length": 43410,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["架构基础", "架构入门"]
+			},
+			"share": {
+				"title": "李运华 · 从0开始学架构",
+				"content": "前阿里P9技术专家的实战架构心法",
+				"cover": "https://static001.geekbang.org/resource/image/a9/ed/a96b163e2d9bf19cdfc0f5d0d69e13ed.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/ce/db/ceb37edc8efefc8b2cde54f6592340db.jpg"
+			},
+			"labels": [3, 14, 20, 22],
+			"unit": "64讲",
+			"column_type": 1,
+			"column": {
+				"unit": "64讲",
+				"bgcolor": "a2cde8",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5],
+				"path": {
+					"desc": "你将获得：\n\n理解架构设计的本质和目的；\n掌握高性能和高可用架构模式；\n走进BAT标准技术架构实战；\n从编程到架构，实现思维跃迁。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e理解架构设计的本质和目的；\u003c/li\u003e\n\u003cli\u003e掌握高性能和高可用架构模式；\u003c/li\u003e\n\u003cli\u003e走进BAT标准技术架构实战；\u003c/li\u003e\n\u003cli\u003e从编程到架构，实现思维跃迁。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/84/51/84c94e02e9bda6bc736f823dd419c651.jpg",
+				"recommend_articles": [6472, 9390, 10022, 11947, 29421, 326375],
+				"recommend_comments": [],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 4,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/24/40/249f485a388090d3455da2a9ea86cd40.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 58069,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 26,
+					"status": 0,
+					"url": "https://jinshuju.net/f/MSsCz3"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 2,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 12900,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "ffffff",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/6c/25/6c8f196bb88a06441167e1b61024d625.jpeg",
+					"promo_pic_color": "FFFFFF",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/86/17/862ae72890547a73c0f8e537d8190817.jpeg",
+					"share_sale_price": 2400,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 0
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 6800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n理解架构设计的本质和目的；\n掌握高性能和高可用架构模式；\n走进BAT标准技术架构实战；\n从编程到架构，实现思维跃迁。\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2341]
+		}, {
+			"id": 100007101,
+			"spu": 71,
+			"ctime": 1525675124,
+			"utime": 1639362287,
+			"begin_time": 1526313600,
+			"end_time": 1533657600,
+			"price": {
+				"market": 19900,
+				"sale": 12900,
+				"sale_type": 2,
+				"start_time": 1639152000,
+				"end_time": 1639756799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": false,
+			"is_promo": true,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "趣谈网络协议",
+			"subtitle": "像小说一样的网络协议入门课",
+			"intro": "网络协议是每个程序员入门的必修课，但是彻底掌握并应用网络协议知识却并非易事，比如常见的TCP/IP、HTTP。网络协议的内容很基础，但基础知识不等于简单知识，更不等于不重要的知识。在网络协议的学习过程中，如果你也有过这样的感受：\n\n协议知识琐碎又枯燥，一看书就头大；\n协议内容很基础，但面试一问就“崩盘”；\n工作遇到才去查书，现学却没法现卖；\n协议知识太底层，不知道如何在热门领域应用。\n\n那么，“趣谈网络协议”专栏就是为你量身定制的。\n在本专栏中，刘超老师将结合自己从业15年的“泣血”经验，对网络协议的底层概念及其在热门领域的应用进行剖析。\n他选取了从底层到上层，最基础、最常用、最重要的网络协议进行一一解析，并将深入分析网络协议在云计算、容器和微服务等领域的应用和实践。帮助入门级程序员深入、直观地理解网络协议基础概念和原理，构建一个完整、精准的协议知识框架；帮助有一定工作经验的程序员填补知识漏洞、打通知识体系。\n专栏分为3大模块。\n\n\n底层网络协议知识详解： 将用最通俗的语言，自下而上讲解最重要、最常用以及最陌生的网络协议概念，帮你构建最精准的网络协议知识框架。\n\n\n网络协议在热门领域的应用： 将讲述网络协议在当下热门领域的应用，比如云计算、容器和微服务，并手把手带你使用新技术，进一步加深对网络协议概念的理解。\n\n\n网络协议知识串联： 将用“双十一”的故事串起网络协议的核心概念和基础知识；借助虚拟化和容器技术，搭建一个实验环境，持续更新你的知识库。\n\n\n",
+			"intro_html": "\u003cp\u003e网络协议是每个程序员入门的必修课，但是彻底掌握并应用网络协议知识却并非易事，比如常见的TCP/IP、HTTP。网络协议的内容很基础，但基础知识不等于简单知识，更不等于不重要的知识。在网络协议的学习过程中，如果你也有过这样的感受：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e协议知识琐碎又枯燥，一看书就头大；\u003c/li\u003e\n\u003cli\u003e协议内容很基础，但面试一问就“崩盘”；\u003c/li\u003e\n\u003cli\u003e工作遇到才去查书，现学却没法现卖；\u003c/li\u003e\n\u003cli\u003e协议知识太底层，不知道如何在热门领域应用。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e那么，“趣谈网络协议”专栏就是为你量身定制的。\u003c/p\u003e\n\u003cp\u003e在本专栏中，刘超老师将结合自己从业15年的“泣血”经验，对网络协议的底层概念及其在热门领域的应用进行剖析。\u003c/p\u003e\n\u003cp\u003e他选取了从底层到上层，最基础、最常用、最重要的网络协议进行一一解析，并将深入分析网络协议在云计算、容器和微服务等领域的应用和实践。帮助入门级程序员深入、直观地理解网络协议基础概念和原理，构建一个完整、精准的协议知识框架；帮助有一定工作经验的程序员填补知识漏洞、打通知识体系。\u003c/p\u003e\n\u003cp\u003e专栏分为3大模块。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e底层网络协议知识详解：\u003c/strong\u003e 将用最通俗的语言，自下而上讲解最重要、最常用以及最陌生的网络协议概念，帮你构建最精准的网络协议知识框架。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e网络协议在热门领域的应用：\u003c/strong\u003e 将讲述网络协议在当下热门领域的应用，比如云计算、容器和微服务，并手把手带你使用新技术，进一步加深对网络协议概念的理解。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e网络协议知识串联：\u003c/strong\u003e 将用“双十一”的故事串起网络协议的核心概念和基础知识；借助虚拟化和容器技术，搭建一个实验环境，持续更新你的知识库。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+			"ucode": "196BF3F499E8FE",
+			"is_finish": true,
+			"author": {
+				"name": "刘超",
+				"intro": "前网易研究院云计算技术部首席架构师",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/99/57/99f9772bb4ff0d815bb75f6812d24f57.jpg",
+				"brief_html": "\u003cp\u003e刘超，前网易研究院云计算技术部首席架构师，15年云计算领域研发及架构经验。曾在EMC做过类似GFS的分布式存储开发，做过基于Lucene的搜索引擎，并写了500页的《Lucene原理与代码分析》；在HP和华为做过OpenStack的开发、实施和解决方案；做过Hadoop运维；还创业倒腾过Mesos容器平台。\u003c/p\u003e\n",
+				"brief": "刘超，前网易研究院云计算技术部首席架构师，15年云计算领域研发及架构经验。曾在EMC做过类似GFS的分布式存储开发，做过基于Lucene的搜索引擎，并写了500页的《Lucene原理与代码分析》；在HP和华为做过OpenStack的开发、实施和解决方案；做过Hadoop运维；还创业倒腾过Mesos容器平台。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/99/57/99f9772bb4ff0d815bb75f6812d24f57.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/6b/9c/6b69453yy6b971b34b02955051faaa9c.jpg",
+				"horizontal": "https://static001.geekbang.org/resource/image/4e/b9/3ceb7ed7754c5c5281d348f9d7fe.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/3e/1b/3e3fcafda125d5afe7f9dc138ba6fd1b.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/74/97/74f0178fd2b6d11fce39b75e548bae97.png",
+				"transparent": "https://static001.geekbang.org/resource/image/78/63/785365027f1388dd78821615f1ed4863.png",
+				"color": "#d8c7cd"
+			},
+			"article": {
+				"id": 0,
+				"count": 51,
+				"count_req": 42,
+				"count_pub": 51,
+				"total_length": 44120,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["网络协议", "网络编程"]
+			},
+			"share": {
+				"title": "刘超 · 趣谈网络协议",
+				"content": "像小说一样的网络协议入门课",
+				"cover": "https://static001.geekbang.org/resource/image/99/57/99f9772bb4ff0d815bb75f6812d24f57.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/30/d9/30a23f3b667b3809b2c3fe578b220dd9.jpg"
+			},
+			"labels": [9, 40, 5, 76],
+			"unit": "51讲",
+			"column_type": 1,
+			"column": {
+				"unit": "51讲",
+				"bgcolor": "ccbac0",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5, 8, 12, 14],
+				"path": {
+					"desc": "你将获得：\n\n\n掌握网络协议的知识框架；\n\n\n应对大厂面试的协议难题；\n\n\n驾驭网络协议的实用场景。\n\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e掌握网络协议的知识框架；\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e应对大厂面试的协议难题；\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e驾驭网络协议的实用场景。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/1a/0a/1a17f945f721b4a18a84e540c70f580a.jpg",
+				"recommend_articles": [7581, 7772, 8015, 8975, 9492, 14381],
+				"recommend_comments": [],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 3,
+				"intro_bg_style": 3,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/05/c5/0555f284d0774c356837dac25186c7c5.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 56578,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 21,
+					"status": 0,
+					"url": "https://jinshuju.net/f/EaDpyD"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 0,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 0,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "FFFFFF",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/ab/f8/abcbe0b99e6a9d78f986c2fc4dc8bdf8.jpeg",
+					"promo_pic_color": "311F2B",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/ab/19/ab0908f0441b3b0ec397acafa203b919.jpeg",
+					"share_sale_price": 2400,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 1639756799
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 6800,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\n掌握网络协议的知识框架；\n应对大厂面试的协议难题；\n驾驭网络协议的实用场景。\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2271]
+		}, {
+			"id": 100006701,
+			"spu": 67,
+			"ctime": 1524131831,
+			"utime": 1639362178,
+			"begin_time": 1525190400,
+			"end_time": 1816790400,
+			"price": {
+				"market": 12900,
+				"sale": 9900,
+				"sale_type": 3,
+				"start_time": 1630425600,
+				"end_time": 1643644799
+			},
+			"is_onborad": true,
+			"is_sale": true,
+			"is_groupbuy": true,
+			"is_promo": false,
+			"is_shareget": false,
+			"is_sharesale": true,
+			"type": "c1",
+			"is_column": true,
+			"is_core": true,
+			"is_video": false,
+			"is_audio": true,
+			"is_dailylesson": false,
+			"is_university": false,
+			"is_opencourse": false,
+			"is_qconp": false,
+			"nav_id": 1,
+			"title": "Java核心技术面试精讲",
+			"subtitle": "前Oracle首席工程师带你修炼Java内功",
+			"intro": "Java 的诞生超过了20年。基于 Java 优秀的特性和庞大的用户使用基础，各大公司对 Java 工程师的需求也是源源不断。而 Java 就是 Oracle 公司的，相信内部人的专栏能带给你与众不同的视角。\n其实，网上流传的大部分“Java 面试、笔试题”，解答大都点到即止，甚至有的连准确性都值得商榷，缺乏系统性的分析与举一反三的讲解，让你很难甄别出各种技术的核心与要点，找到高效归纳自己知识体系的方法。\n而这个专栏，在讲解知识点的同时，还梳理出一个完整的 Java 开发技术能力图谱，帮你真正将基础夯实。不论是准备面试、还是想进阶 Java，都可以通过这个专栏，切实提升你的 Java 技能。\n专栏分为5大模块。\n\nJava基础：将围绕Java语言基本特性和机制，由点带面，帮你构建牢固的Java技术功底。\nJava进阶：主要将围绕并发编程、Java虚拟机等领域展开，助你攻坚大厂Java面试的核心阵地。\nJava应用开发扩展：将聚焦数据库编程、主流开源框架、分布式开发等，让你掌握Java开发的十八般兵器。\nJava安全基础：帮助你理解常见的应用安全问题和处理方法，掌握如何写出符合大厂规范的安全代码。\nJava性能基础：帮助你掌握相关工具、方法论与基础实践。\n\n下面是专栏目录，每篇文章都会精讲一道面试题。这些题都是杨晓峰老师从几百道大厂 Java 面试真题里筛选出来的经典。\n",
+			"intro_html": "\u003cp\u003eJava 的诞生超过了20年。基于 Java 优秀的特性和庞大的用户使用基础，各大公司对 Java 工程师的需求也是源源不断。而 Java 就是 Oracle 公司的，相信内部人的专栏能带给你与众不同的视角。\u003c/p\u003e\n\u003cp\u003e其实，网上流传的大部分“Java 面试、笔试题”，解答大都点到即止，甚至有的连准确性都值得商榷，缺乏系统性的分析与举一反三的讲解，让你很难甄别出各种技术的核心与要点，找到高效归纳自己知识体系的方法。\u003c/p\u003e\n\u003cp\u003e而这个专栏，在讲解知识点的同时，还梳理出一个完整的 Java 开发技术能力图谱，帮你真正将基础夯实。不论是准备面试、还是想进阶 Java，都可以通过这个专栏，切实提升你的 Java 技能。\u003c/p\u003e\n\u003cp\u003e专栏分为5大模块。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eJava基础\u003c/strong\u003e：将围绕Java语言基本特性和机制，由点带面，帮你构建牢固的Java技术功底。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eJava进阶\u003c/strong\u003e：主要将围绕并发编程、Java虚拟机等领域展开，助你攻坚大厂Java面试的核心阵地。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eJava应用开发扩展\u003c/strong\u003e：将聚焦数据库编程、主流开源框架、分布式开发等，让你掌握Java开发的十八般兵器。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eJava安全基础\u003c/strong\u003e：帮助你理解常见的应用安全问题和处理方法，掌握如何写出符合大厂规范的安全代码。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eJava性能基础\u003c/strong\u003e：帮助你掌握相关工具、方法论与基础实践。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e下面是专栏目录，每篇文章都会精讲一道面试题。这些题都是杨晓峰老师从几百道大厂 Java 面试真题里筛选出来的经典。\u003c/p\u003e\n",
+			"ucode": "2BF255467A978F",
+			"is_finish": true,
+			"author": {
+				"name": "杨晓峰",
+				"intro": "前Oracle首席工程师",
+				"info": "",
+				"avatar": "https://static001.geekbang.org/resource/image/6f/51/6f1829aeae4e740e949340c663834551.jpg",
+				"brief_html": "\u003cp\u003e杨晓峰，前 Oracle 北京 Java 平台部门，首席工程师，OpenJDK Committer，从 JDK 8 开始参与了 JDK 的开发和测试工作，曾领导 Java 核心类库北京团队，主要负责前沿版本的核心类库新特性相关任务。专注于 Java 以及其他编程语言的新特性，尤其是在云计算等前沿领域的应用和演进。\u003c/p\u003e\n",
+				"brief": "杨晓峰，前 Oracle 北京 Java 平台部门，首席工程师，OpenJDK Committer，从 JDK 8 开始参与了 JDK 的开发和测试工作，曾领导 Java 核心类库北京团队，主要负责前沿版本的核心类库新特性相关任务。专注于 Java 以及其他编程语言的新特性，尤其是在云计算等前沿领域的应用和演进。\n"
+			},
+			"cover": {
+				"square": "https://static001.geekbang.org/resource/image/6f/51/6f1829aeae4e740e949340c663834551.jpg",
+				"rectangle": "https://static001.geekbang.org/resource/image/da/e8/dabf7c970f7d3aeab8862b92dd86c7e8.jpg",
+				"horizontal": "https://static001.geekbang.org/resource/image/66/42/66c43deea71d5494c7f7af1524a87342.jpg",
+				"lecture_horizontal": "https://static001.geekbang.org/resource/image/6f/51/6f1829aeae4e740e949340c663834551.jpg",
+				"learn_horizontal": "https://static001.geekbang.org/resource/image/61/1f/61c1402885cb9c996be550546c87361f.png",
+				"transparent": "https://static001.geekbang.org/resource/image/69/57/69e8b1cad25e25ee0a8796fb017d7c57.png",
+				"color": "#cdcbd9"
+			},
+			"article": {
+				"id": 0,
+				"count": 44,
+				"count_req": 41,
+				"count_pub": 44,
+				"total_length": 27545,
+				"first_article_id": 0,
+				"first_article_title": ""
+			},
+			"seo": {
+				"keywords": ["Java面试", "Java基础"]
+			},
+			"share": {
+				"title": "杨晓峰 · Java核心技术面试精讲",
+				"content": "前Oracle首席工程师带你修炼Java内功",
+				"cover": "https://static001.geekbang.org/resource/image/6f/51/6f1829aeae4e740e949340c663834551.jpg",
+				"poster": "https://static001.geekbang.org/resource/image/97/c5/97ef24b25838514cb095ceadf2470bc5.jpg"
+			},
+			"labels": [3, 10, 69, 71],
+			"unit": "44讲",
+			"column_type": 1,
+			"column": {
+				"unit": "44讲",
+				"bgcolor": "b2b7cf",
+				"update_frequency": "全集",
+				"is_preorder": false,
+				"is_finish": true,
+				"is_include_preview": true,
+				"show_chapter": true,
+				"is_sale_product": true,
+				"study_service": [1, 2, 3, 5, 12],
+				"path": {
+					"desc": "你将获得：\n\nJava 核心技术原理剖析；\n36 道 Java 必考面试题详解；\n一套完整的 Java 知识体系；\n从面试官角度洞悉技术面试考点。\n\n",
+					"desc_html": "\u003cp\u003e\u003cstrong\u003e你将获得\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eJava 核心技术原理剖析；\u003c/li\u003e\n\u003cli\u003e36 道 Java 必考面试题详解；\u003c/li\u003e\n\u003cli\u003e一套完整的 Java 知识体系；\u003c/li\u003e\n\u003cli\u003e从面试官角度洞悉技术面试考点。\u003c/li\u003e\n\u003c/ul\u003e\n"
+				},
+				"is_camp": false,
+				"catalog_pic_url": "https://static001.geekbang.org/resource/image/5e/0a/5ec38a973faeddb48343d3e5ca930c0a.jpg",
+				"recommend_articles": [6849, 8799, 10325, 10651, 12188, 12963],
+				"recommend_comments": [64307, 240752],
+				"ranks": null,
+				"hot_comments": null,
+				"hot_lines": null,
+				"display_type": 1,
+				"intro_bg_style": 4,
+				"comment_top_ads": "",
+				"article_float_qrcode_url": "https://static001.geekbang.org/resource/image/90/3f/902fc91e30f2e4b6588b2c3ce5fa0c3f.png"
+			},
+			"dl": {
+				"article": {
+					"id": 0,
+					"video_duration": "",
+					"video_hot": 0,
+					"could_preview": false
+				},
+				"topic_ids": []
+			},
+			"university": {
+				"total_hour": 0,
+				"term": 0,
+				"redirect_type": "",
+				"redirect_param": "",
+				"wx_qrcode": "",
+				"wx_rule": "",
+				"server_start_time": 0,
+				"lecturer_h_cover": ""
+			},
+			"opencourse": {
+				"video_bg": "",
+				"ad": {
+					"cover": "",
+					"cover_web": "",
+					"redirect_type": "",
+					"redirect_param": ""
+				},
+				"article_fav": {
+					"aid": 0,
+					"had_done": false,
+					"count": 0
+				},
+				"author_h_cover": ""
+			},
+			"qconp": {
+				"topic_id": 0,
+				"cover_appoint": "",
+				"article": {
+					"id": 0,
+					"cover": "",
+					"video_duration": "",
+					"video_hot": 0
+				}
+			},
+			"fav_qrcode": "",
+			"extra": {
+				"sub": {
+					"count": 54904,
+					"had_done": false,
+					"could_order": false,
+					"access_mask": 0
+				},
+				"fav": {
+					"count": 0,
+					"had_done": false
+				},
+				"rate": {
+					"article_count": 0,
+					"article_count_req": 0,
+					"is_finished": false,
+					"rate_percent": 0,
+					"video_seconds": 0,
+					"last_article_id": 0,
+					"last_chapter_id": 0,
+					"has_learn": false
+				},
+				"cert": {
+					"id": "",
+					"type": 0
+				},
+				"nps": {
+					"min": 21,
+					"status": 0,
+					"url": "https://jinshuju.net/f/4jK57u"
+				},
+				"any_read": {
+					"total": 4,
+					"count": 0
+				},
+				"university": {
+					"status": 0,
+					"view_status": 0,
+					"charge_status": 0,
+					"share_renewal_status": 0,
+					"unlocked_status": 0,
+					"unlocked_chapter_ids": [],
+					"unlocked_chapter_id": 0,
+					"unlocked_chapter_title": "",
+					"unlocked_article_count": 0,
+					"unlocked_next_time": 0,
+					"expire_time": 0,
+					"is_expired": false,
+					"is_graduated": false,
+					"had_sub": false,
+					"timeline": [],
+					"has_wx_friend": false,
+					"sub_term_title": ""
+				},
+				"vip": {
+					"is_year_card": false,
+					"show": false,
+					"end_time": 0
+				},
+				"appoint": {
+					"could_do": false,
+					"had_done": false,
+					"count": 0
+				},
+				"group_buy": {
+					"success_ucount": 2,
+					"join_code": "",
+					"could_groupbuy": false,
+					"had_join": false,
+					"price": 9900,
+					"list": []
+				},
+				"sharesale": {
+					"original_pic_color": "ffffff",
+					"original_pic_url": "https://static001.geekbang.org/render/screen/2f/b1/2f280fe48bf319a06b0bc387f1e50db1.jpeg",
+					"promo_pic_color": "ffffff",
+					"promo_pic_url": "https://static001.geekbang.org/render/screen/ef/4b/efbbd49dcbff97bd1d1af4fac051b44b.jpeg",
+					"share_sale_price": 2000,
+					"share_sale_guest_price": 0
+				},
+				"promo": {
+					"ent_time": 0
+				},
+				"channel": {
+					"is": false,
+					"back_amount": 0
+				},
+				"first_promo": {
+					"price": 5900,
+					"could_join": true
+				},
+				"coupon_promo": {
+					"could_join": false,
+					"price": 0
+				},
+				"helper": [],
+				"tab": {
+					"comment": false
+				},
+				"modules": [{
+					"name": "gain",
+					"title": "",
+					"content": "\nJava 核心技术原理剖析；\n36 道 Java 必考面试题详解；\n一套完整的 Java 知识体系；\n从面试官角度洞悉技术面试考点。\n\n",
+					"type": "",
+					"is_top": false
+				}],
+				"cid": 0,
+				"first_aids": [],
+				"study_plan": {
+					"id": 0,
+					"day_nums": 0,
+					"article_nums": 0,
+					"learned_week_nums": 0,
+					"status": 0
+				},
+				"cate_id": 303,
+				"cate_name": "",
+				"group_tag": {
+					"is_recommend": false,
+					"is_recently_learn": false
+				},
+				"first_award": {
+					"show": false,
+					"talks": 0,
+					"reads": 0,
+					"amount": 0,
+					"expire_time": 0,
+					"redirect_type": "",
+					"redirect_param": ""
+				}
+			},
+			"available_coupons": [2243, 2281]
+		}],
+		"articles": null,
+		"labels": null
+	},
+	"error": {},
+	"extra": {
+		"cost": 0.007311153,
+		"request-id": "a10e509105b0b7b561f87f4ab7c314a9@2@time"
+	}
+}
