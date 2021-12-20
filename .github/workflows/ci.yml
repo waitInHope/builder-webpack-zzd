@@ -35,9 +35,9 @@ jobs:
         path: |
           **/node_modules
           **/test/smoke/template/node_modules
-        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-        ${{ runner.os }}-npm-
+          ${{ runner.os }}-node-
 
     - name: Install Project Dependencies
       run: npm install -D
