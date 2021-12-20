@@ -1,0 +1,21 @@
+
+name: Github Actions Build demo
+on:
+  push:
+    branches:
+     - master
+
+jobs:
+  build-and-deploy
+    runs-on: centOS-lastest
+    steps:
+      - name: Checkout
+        use: actions/checkout@master
+      
+      - name: Build and Deploy
+        use: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: npm install && npm run build
