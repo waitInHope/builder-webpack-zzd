@@ -16,18 +16,37 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    
+    # 使用多路径的缓存帮助构建
+    - name: Cache multiple paths
+      uses: actions/cache@v2
+      with:
+        path: |
+          **/node_modules
+          **/test/smoke/template/node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+        restore-keys: |
+        ${{ runner.os }}-npm-
+
+    - name: Install Project Dependencies
+      run: npm install -D
+    
+    - name: Install Template Dependencies
+      run: cd ./test/smoke/template
     - run: npm install -D
-    - run: cd ./test/smoke/template
-    - run: npm install -D
-    - run: cd ../../../
+
+
+    - name: Run Test Unit Case
+      run: cd ../../../
     - run: npm test
